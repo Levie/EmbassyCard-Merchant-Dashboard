@@ -79,7 +79,7 @@ class Overview_Personal extends React.Component {
 
         <div className="content">
         <h2>
-        Welcome to your Dashboard: Customer Mode Overview
+        Welcome to your Dashboard: Customer Overview
         </h2>
         <h5>
         EmbassyCard Customer Status & Personal Features

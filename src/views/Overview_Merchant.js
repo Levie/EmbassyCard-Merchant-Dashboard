@@ -59,7 +59,7 @@ class Overview_Merchant extends React.Component {
 
         <div className="content">
         <h2>
-        Welcome to your Dashboard: Merchant Mode Overview
+        Welcome to your Dashboard: Merchant Overview
         </h2>
         <h5>
         EmbassyCard Merchant Status & Business Features
@@ -222,7 +222,7 @@ class Overview_Merchant extends React.Component {
                   <hr />
                   <div className="stats">
                     <i className="nc-icon nc-user-run" />
-                    Activity This week
+                    Activity This week.
                   </div>
                 </CardFooter>
               </Card>

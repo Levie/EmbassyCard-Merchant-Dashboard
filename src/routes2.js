@@ -1,48 +1,46 @@
 
-//import Buttons from "views/components/Buttons.js";
-//import Calendar from "views/Calendar.js";
-//import Charts from "views/Charts.js";
+
 import Overview_Merchant from "views/Overview_Merchant.js";
 import Dashboard_Today_Merchant from "views/Dashboard_Today_Merchant.js";
-//import Dashboard_Today from "views/Dashboard_Today.js";
+
 import Dashboard_LastMonth_Merchant from "views/Dashboard_LastMonth_Merchant.js";
 import Dashboard_Month2Date_Merchant from "views/Dashboard_Month2Date_Merchant.js";
-//import ExtendedForms from "views/forms/ExtendedForms.js";
-//import ExtendedTables from "views/tables/ExtendedTables.js";
-//import FullScreenMap from "views/maps/FullScreenMap.js";
-//import GoogleMaps from "views/maps/GoogleMaps.js";
-//import GridSystem from "views/components/GridSystem.js";
-//import Icons from "views/components/Icons.js";
-//import LockScreen from "views/pages/LockScreen.js";
-import Login from "views/pages/Login.js";
-//import Notifications from "views/components/Notifications.js";
-//import Panels from "views/components/Panels.js";
-//import ReactTables from "views/tables/ReactTables.js";
-//import Register from "views/pages/Register.js";
-//import RegularForms from "views/forms/RegularForms.js";
+
+import Overview_Customer from "views/Overview_Personal.js";
+import Dashboard_Today_Personal from "views/Dashboard_Today_Personal.js";
+
+import Dashboard_LastMonth_Personal from "views/Dashboard_LastMonth_Personal.js";
+import Dashboard_Month2Date_Personal from "views/Dashboard_Month2Date_Personal.js";
+
+
+
 import RegularTables from "views/tables/RegularTables.js";
-//import SweetAlert from "views/components/SweetAlert.js";
-//import Timeline from "views/pages/Timeline.js";
-//import Typography from "views/components/Typography.js";
-//import UserProfile from "views/pages/UserProfile.js";
-//import ValidationForms from "views/forms/ValidationForms.js";
-//import VectorMap from "views/maps/VectorMap.js";
-//import Widgets from "views/Widgets.js";
-//import Wizard from "views/forms/Wizard.js";
+import RegularTables2 from "views/tables/RegularTables2.js";
+
 
 const routes2 = [
   {
+    collapse: true,
+    name: "Merchant",
+    icon: "nc-icon nc-laptop",
+    state: "MerchantCollapse",
+    views: [
+
+
+  {
     path: "/overview_merchant",
-    name: "Overview",
-    icon: "nc-icon nc-tv-2",
+    name: "Merchant Overview",
+    mini:"..",
+    //icon: "nc-icon nc-layout-11",
     component: Overview_Merchant,
     layout: "/dashboard/merchant",
   },
+
   {
     collapse: true,
     name: "Dashboard",
-    icon: "nc-icon nc-chart-bar-32",
-    state: "DashCollapse",
+    icon: "nc-icon nc-layout-11",
+    state: "MDashCollapse",
     views: [
       {
         path: "/dashboard_merchant",
@@ -89,7 +87,7 @@ const routes2 = [
     state: "tablesCollapse",
     views: [
       {
-        path: "/regular-tables",
+        path: "/merchant-usage",
         name: "Recent Usage",
         mini: "..",
         component: RegularTables,
@@ -111,51 +109,51 @@ const routes2 = [
       // },
     ],
   },
-  {
-    collapse: true,
-    name: "Account",
-    icon: "nc-icon nc-badge",
-    state: "pagesCollapse",
-    views: [
-
-      // {
-      //   path: "/user-profile",
-      //   name: "UserProfile",
-      //   mini: "UP",
-      //   component: UserProfile,
-      //   layout: "/dashboard/merchant",
-      // },
-      {
-        path: "/mode",
-        name: "Dashboard Mode",
-        mini: "..",
-        component: Login,
-        layout: "/dashboard/switchboard",
-      },
-      // {
-      //   path: "/cardmanagement",
-      //   name: "Card Management",
-      //   mini: "CM",
-      //   component: ExtendedForms,
-      //   layout: "/admin",
-      // },
-      // {
-      //   path: "/wizard",
-      //   name: "Profile Wizard",
-      //   mini: "PW",
-      //   component: Wizard,
-      //   layout: "/dashboard/merchant",
-      // },
-      // {
-      //   path: "/lock-screen",
-      //   name: "LockScreen",
-      //   mini: "LS",
-      //   component: LockScreen,
-      //   layout: "/auth",
-      // },
-
-    ],
-  },
+  // {
+  //   collapse: true,
+  //   name: "Account",
+  //   icon: "nc-icon nc-badge",
+  //   state: "pagesCollapse",
+  //   views: [
+  //
+  //     // {
+  //     //   path: "/user-profile",
+  //     //   name: "UserProfile",
+  //     //   mini: "UP",
+  //     //   component: UserProfile,
+  //     //   layout: "/dashboard/merchant",
+  //     // },
+  //     // {
+  //     //   path: "/mode",
+  //     //   name: "Dashboard Mode",
+  //     //   mini: "..",
+  //     //   component: Login,
+  //     //   layout: "/dashboard/switchboard",
+  //     // },
+  //     // {
+  //     //   path: "/cardmanagement",
+  //     //   name: "Card Management",
+  //     //   mini: "CM",
+  //     //   component: ExtendedForms,
+  //     //   layout: "/admin",
+  //     // },
+  //     // {
+  //     //   path: "/wizard",
+  //     //   name: "Profile Wizard",
+  //     //   mini: "PW",
+  //     //   component: Wizard,
+  //     //   layout: "/dashboard/merchant",
+  //     // },
+  //     // {
+  //     //   path: "/lock-screen",
+  //     //   name: "LockScreen",
+  //     //   mini: "LS",
+  //     //   component: LockScreen,
+  //     //   layout: "/auth",
+  //     // },
+  //
+  //   ],
+  // },
   // {
   //   collapse: true,
   //   name: "Notifications",
@@ -272,6 +270,98 @@ const routes2 = [
   //   component: Calendar,
   //   layout: "/admin",
   // },
+],
+},
+
+{
+  collapse: true,
+  name: "Customer",
+  icon: "nc-icon nc-mobile",
+  state: "CustomerCollapse",
+  views: [
+    {
+      path: "/overview_customer",
+      name: "Customer Overview",
+      //icon: "nc-icon nc-tv-2",
+      mini: "..",
+      component: Overview_Customer,
+      layout: "/dashboard/merchant",
+    },
+    {
+      collapse: true,
+      name: "Dashboard",
+      icon: "nc-icon nc-layout-11",
+      //mini: "..",
+      state: "CDashCollapse",
+      views: [
+        {
+          path: "/dashboard_personal",
+          name: "Today",
+          mini: "-",
+          component: Dashboard_Today_Personal,
+          layout: "/dashboard/merchant",
+        },
+        {
+          path: "/month2month_personal",
+          name: "This Week",
+          mini: "-",
+          component: Dashboard_Month2Date_Personal,
+          layout: "/dashboard/merchant",
+        },
+        {
+          path: "/lastmonth_personal",
+          name: "This Month",
+          mini: "-",
+          component: Dashboard_LastMonth_Personal,
+          layout: "/dashboard/merchant",
+        },
+
+
+      ],
+    },
+
+    // {
+    //   path: "/charts",
+    //   name: "Stats",
+    //   icon: "nc-icon nc-chart-bar-32",
+    //   component: Charts,
+    //   layout: "/admin",
+    // },
+    {
+      collapse: true,
+      name: "Transactions",
+      icon: "nc-icon nc-money-coins",
+      mini:"",
+      state: "tables2Collapse",
+      views: [
+        {
+          path: "/customer-usage",
+          name: "Recent Usage",
+          mini: "..",
+          component: RegularTables2,
+          layout: "/dashboard/merchant",
+        },
+        // {
+        //   path: "/react-tables",
+        //   name: "Account History",
+        //   mini: "LM",
+        //   component: ReactTables,
+        //   layout: "/dashboard/customer",
+        // },
+        // {
+        //   path: "/extended-tables",
+        //   name: "Month-2-Date",
+        //   mini: "MD",
+        //   component: ExtendedTables,
+        //   layout: "/dashboard/customer",
+        // },
+      ],
+    },
+
+
+],
+},
+
 ];
 
 export default routes2;

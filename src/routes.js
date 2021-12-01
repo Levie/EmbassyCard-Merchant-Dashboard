@@ -1,39 +1,20 @@
 
-//import Buttons from "views/components/Buttons.js";
-//import Calendar from "views/Calendar.js";
-//import Charts from "views/Charts.js";
+
 import Overview_Customer from "views/Overview_Personal.js";
 import Dashboard_Today_Personal from "views/Dashboard_Today_Personal.js";
 
 import Dashboard_LastMonth_Personal from "views/Dashboard_LastMonth_Personal.js";
 import Dashboard_Month2Date_Personal from "views/Dashboard_Month2Date_Personal.js";
-//import ExtendedForms from "views/forms/ExtendedForms.js";
-//import ExtendedTables from "views/tables/ExtendedTables.js";
-//import FullScreenMap from "views/maps/FullScreenMap.js";
-//import GoogleMaps from "views/maps/GoogleMaps.js";
-//import GridSystem from "views/components/GridSystem.js";
-//import Icons from "views/components/Icons.js";
-//import LockScreen from "views/pages/LockScreen.js";
+
 import Login from "views/pages/Login.js";
-//import Notifications from "views/components/Notifications.js";
-//import Panels from "views/components/Panels.js";
-//import ReactTables from "views/tables/ReactTables.js";
-//import Register from "views/pages/Register.js";
-//import RegularForms from "views/forms/RegularForms.js";
+
 import RegularTables from "views/tables/RegularTables.js";
-//import SweetAlert from "views/components/SweetAlert.js";
-//import Timeline from "views/pages/Timeline.js";
-//import Typography from "views/components/Typography.js";
-//import UserProfile from "views/pages/UserProfile.js";
-//import ValidationForms from "views/forms/ValidationForms.js";
-//import VectorMap from "views/maps/VectorMap.js";
-//import Widgets from "views/Widgets.js";
-//import Wizard from "views/forms/Wizard.js";
+
 
 const routes = [
   {
     path: "/overview_customer",
-    name: "Overview",
+    name: "Customer Overview",
     icon: "nc-icon nc-tv-2",
     component: Overview_Customer,
     layout: "/dashboard/customer",

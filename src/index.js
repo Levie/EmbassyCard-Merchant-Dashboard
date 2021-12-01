@@ -4,8 +4,7 @@ import ReactDOM from "react-dom";
 import { createBrowserHistory } from "history";
 import { Router, Route, Switch, Redirect } from "react-router-dom";
 
-import AuthLayout from "layouts/Auth.js";
-import AdminLayout from "layouts/Admin.js";
+
 import AdminLayout2 from "layouts/Admin2.js";
 
 import "bootstrap/dist/css/bootstrap.css";
@@ -18,10 +17,8 @@ const hist = createBrowserHistory();
 ReactDOM.render(
   <Router history={hist}>
     <Switch>
-      <Route path="/dashboard/switchboard" render={(props) => <AuthLayout {...props} />} />
-      <Route path="/dashboard/customer" render={(props) => <AdminLayout {...props} />} />
       <Route path="/dashboard/merchant" render={(props) => <AdminLayout2 {...props} />} />
-      <Redirect to="/dashboard/switchboard/mode" />
+      <Redirect to="/dashboard/merchant/overview_merchant" />
     </Switch>
   </Router>,
   document.getElementById("root")
