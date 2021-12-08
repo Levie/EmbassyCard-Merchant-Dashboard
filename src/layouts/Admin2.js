@@ -17,7 +17,7 @@ class Admin2 extends React.Component {
   constructor(props) {
     super(props);
     this.state = {
-      backgroundColor: "black",
+      backgroundColor: "white",
       activeColor: "primary",
       sidebarMini: false,
     };
