@@ -96,6 +96,32 @@ class Overview_Merchant extends React.Component {
                 <Row>
                   <Col md="4" xs="5">
                     <div className="icon-big text-center icon-warning">
+                      <i className="nc-icon nc-cart-simple text-muted" />
+                    </div>
+                  </Col>
+                  <Col md="8" xs="7">
+                    <div className="numbers">
+                      <p className="card-category">Total no. of Sales</p>
+                      <CardTitle tag="p">32</CardTitle>
+                      <p />
+                    </div>
+                  </Col>
+                </Row>
+              </CardBody>
+              <CardFooter>
+                <hr />
+                <div className="stats">
+                  <i className="nc-icon nc-bank" />
+                  Since Membership.
+                </div>
+              </CardFooter>
+            </Card>
+
+            <Card className="card-stats">
+              <CardBody>
+                <Row>
+                  <Col md="4" xs="5">
+                    <div className="icon-big text-center icon-warning">
                       <i className="nc-icon nc-money-coins text-muted" />
                     </div>
                   </Col>
@@ -119,35 +145,37 @@ class Overview_Merchant extends React.Component {
               </CardFooter>
               </Card>
 
-            <Card className="card-stats">
-              <CardBody>
-                <Row>
-                  <Col md="4" xs="5">
-                    <div className="icon-big text-center icon-warning">
-                      <i className="nc-icon nc-air-baloon text-muted" />
-                    </div>
-                  </Col>
-                  <Col md="8" xs="7">
-                    <div className="numbers">
-                      <p className="card-category">Settlement</p>
-                      <CardTitle tag="p">₦ 0</CardTitle>
-                      <p />
-                    </div>
-                  </Col>
-                </Row>
-              </CardBody>
-              <CardFooter>
-                <hr />
-                <div className="stats">
-                  <i className="nc-icon nc-alert-circle-i" />
-                  Excl. Service fee.
-                </div>
-              </CardFooter>
-            </Card>
 
           </Col>
 
           <Col lg="4" md="6" sm="6">
+
+          <Card className="card-stats">
+            <CardBody>
+              <Row>
+                <Col md="4" xs="5">
+                  <div className="icon-big text-center icon-warning">
+                    <i className="nc-icon nc-air-baloon text-muted" />
+                  </div>
+                </Col>
+                <Col md="8" xs="7">
+                  <div className="numbers">
+                    <p className="card-category">Settlement</p>
+                    <CardTitle tag="p">₦ 0</CardTitle>
+                    <p />
+                  </div>
+                </Col>
+              </Row>
+            </CardBody>
+            <CardFooter>
+              <hr />
+              <div className="stats">
+                <i className="nc-icon nc-alert-circle-i" />
+                Excl. Service fee.
+              </div>
+            </CardFooter>
+          </Card>
+
 
             <Card className="card-stats">
               <CardBody>
@@ -174,86 +202,65 @@ class Overview_Merchant extends React.Component {
                 </div>
               </CardFooter>
             </Card>
+            <Card className="card-stats">
+              <CardBody>
+                <Row>
+                  <Col md="4" xs="5">
+                    <div className="icon-big text-center icon-warning">
+                      <i className="nc-icon nc-simple-add text-muted" />
+                    </div>
+                  </Col>
+                  <Col md="8" xs="7">
+                    <div className="numbers">
+                      <p className="card-category">Merchant Agent Count</p>
+                      <CardTitle tag="p">0</CardTitle>
+                      <p />
+                    </div>
+                  </Col>
+                </Row>
+              </CardBody>
+              <CardFooter>
+                <hr />
+                <div className="stats">
+                  <i className="nc-icon nc-bank" />
+                  Since Membership.
+                </div>
+              </CardFooter>
+            </Card>
 
-              <Card className="card-stats">
-                <CardBody>
-                  <Row>
-                    <Col md="4" xs="5">
-                      <div className="icon-big text-center icon-warning">
-                        <i className="nc-icon nc-shop text-muted" />
-                      </div>
-                    </Col>
-                    <Col md="8" xs="7">
-                      <div className="numbers">
-                        <p className="card-category">Agent Commission</p>
-                        <CardTitle tag="p">₦ 0</CardTitle>
-                        <p />
-                      </div>
-                    </Col>
-                  </Row>
-                </CardBody>
-                <CardFooter>
-                  <hr />
-                  <div className="stats">
-                    <i className="nc-icon nc-bank" />Since Membership.
-                  </div>
-                </CardFooter>
-              </Card>
 
-              <Card className="card-stats">
-                <CardBody>
-                  <Row>
-                    <Col md="4" xs="5">
-                      <div className="icon-big text-center icon-warning">
-                        <i className="nc-icon nc-cart-simple text-muted" />
-                      </div>
-                    </Col>
-                    <Col md="8" xs="7">
-                      <div className="numbers">
-                        <p className="card-category">Total no. of Sales</p>
-                        <CardTitle tag="p">32</CardTitle>
-                        <p />
-                      </div>
-                    </Col>
-                  </Row>
-                </CardBody>
-                <CardFooter>
-                  <hr />
-                  <div className="stats">
-                    <i className="nc-icon nc-bank" />
-                    Since Membership.
-                  </div>
-                </CardFooter>
-              </Card>
+
+
 
             </Col>
 
             <Col lg="4" md="6" sm="6">
-              <Card className="card-stats">
-                <CardBody>
-                  <Row>
-                    <Col md="4" xs="5">
-                      <div className="icon-big text-center icon-warning">
-                        <i className="nc-icon nc-simple-add text-muted" />
-                      </div>
-                    </Col>
-                    <Col md="8" xs="7">
-                      <div className="numbers">
-                        <p className="card-category">Merchant Agent Count</p>
-                        <CardTitle tag="p">0</CardTitle>
-                        <p />
-                      </div>
-                    </Col>
-                  </Row>
-                </CardBody>
-                <CardFooter>
-                  <hr />
-                  <div className="stats">
-                    <i className="nc-icon nc-bank" />
-                    Since Membership.
-                  </div>
-                </CardFooter>
-              </Card>
+
+            <Card className="card-stats">
+              <CardBody>
+                <Row>
+                  <Col md="4" xs="5">
+                    <div className="icon-big text-center icon-warning">
+                      <i className="nc-icon nc-shop text-muted" />
+                    </div>
+                  </Col>
+                  <Col md="8" xs="7">
+                    <div className="numbers">
+                      <p className="card-category">Agent Commission</p>
+                      <CardTitle tag="p">₦ 0</CardTitle>
+                      <p />
+                    </div>
+                  </Col>
+                </Row>
+              </CardBody>
+              <CardFooter>
+                <hr />
+                <div className="stats">
+                  <i className="nc-icon nc-bank" />Since Membership.
+                </div>
+              </CardFooter>
+            </Card>
+
               <Card className="card-stats">
                 <CardBody>
                   <Row>
@@ -285,7 +292,7 @@ class Overview_Merchant extends React.Component {
           </Row>
 
           <h5>
-          ___________________________
+          _______________________________________
           </h5>
 
 

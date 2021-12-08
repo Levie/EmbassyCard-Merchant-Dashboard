@@ -39,7 +39,7 @@ const routes2 = [
   {
     collapse: true,
     name: "Analytics",
-    icon: "nc-icon nc-layout-11",
+    icon: "nc-icon nc-chart-bar-32",
     state: "MDashCollapse",
     views: [
       {
@@ -290,7 +290,7 @@ const routes2 = [
     {
       collapse: true,
       name: "Analytics",
-      icon: "nc-icon nc-layout-11",
+      icon: "nc-icon nc-chart-bar-32",
       //mini: "..",
       state: "CDashCollapse",
       views: [
