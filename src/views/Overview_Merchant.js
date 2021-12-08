@@ -240,7 +240,7 @@ class Overview_Merchant extends React.Component {
                     </Col>
                     <Col md="8" xs="7">
                       <div className="numbers">
-                        <p className="card-category">Total Merchant Earnings Value</p>
+                        <p className="card-category">Total Float Balance</p>
                         <CardTitle tag="p">₦ 0</CardTitle>
                         <p />
                       </div>
