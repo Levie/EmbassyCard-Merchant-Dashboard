@@ -218,47 +218,7 @@ class Overview_Personal extends React.Component {
               </Card>
             </Col>
 
-            <Col lg="4" md="6" sm="6">
-              <Card>
-                <CardHeader>
-                  <CardTitle>Request to Pay</CardTitle>
-                  <p className="card-category">Total of Bills Unpaid</p>
-                </CardHeader>
-                <CardBody>
-                  <Doughnut
-                    data={chartExample7.data}
-                    options={chartExample7.options}
-                    className="ct-chart ct-perfect-fourth"
-                    height={80}
-                    width={256}
-                  />
-                </CardBody>
-                <CardFooter>
-                <div className="legend">
-                  <i className="fa fa-circle text-danger" />
-                  Settlement Bills Unpaid
-                </div>
-                  <hr />
-                  <Row>
-                    <Col sm="7">
-                      <div className="footer-title">View Settled Bills</div>
-                    </Col>
-                    <Col sm="5">
-                      <div className="pull-right">
-                        <Button
-                          className="btn-round btn-icon"
-                          color="danger"
-                          size="sm"
-                          href="/admin/charts"
-                        >
-                          <i className="nc-icon nc-button-play" />
-                        </Button>
-                      </div>
-                    </Col>
-                  </Row>
-                </CardFooter>
-              </Card>
-            </Col>
+
           </Row>
 
           <h5>
@@ -266,7 +226,7 @@ class Overview_Personal extends React.Component {
           </h5>
 
           <Row>
-          <Col lg="4" md="6" sm="6">
+          <Col lg="6" md="6" sm="6">
             <Card>
               <CardHeader>
               <Row>

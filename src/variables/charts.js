@@ -1114,8 +1114,8 @@ const chartExample14 = {
     datasets: [
 
       {
-        borderColor: "#fcc468",
-        backgroundColor: "#fcc468",
+        borderColor: "#51bcda",
+        backgroundColor: "#51bcda",
         pointRadius: 0,
         pointHoverRadius: 0,
         borderWidth: 3,

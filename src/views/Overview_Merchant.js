@@ -162,7 +162,7 @@ class Overview_Merchant extends React.Component {
                 </Col>
                 <Col md="8" xs="7">
                   <div className="numbers">
-                    <p className="card-category">Settlement</p>
+                    <p className="card-category">Total Settlement</p>
                     <CardTitle tag="p">₦ 0</CardTitle>
                     <p />
                   </div>
@@ -172,8 +172,8 @@ class Overview_Merchant extends React.Component {
             <CardFooter>
               <hr />
               <div className="stats">
-                <i className="nc-icon nc-alert-circle-i" />
-                Excl. Service fee.
+                <i className="nc-icon nc-bank" />
+                Since Membership.
               </div>
             </CardFooter>
           </Card>
@@ -312,7 +312,7 @@ class Overview_Merchant extends React.Component {
                 <CardHeader>
                   <Row>
                     <Col sm="7">
-                      <div className="numbers pull-left">Commission Earnings</div>
+                      <div className="numbers pull-left">Total Commission</div>
                     </Col>
                     <Col sm="5">
                       <div className="pull-right">
@@ -348,7 +348,7 @@ class Overview_Merchant extends React.Component {
                     <Col sm="5">
                       <div className="pull-right">
 
-                        <Badge color="warning" pill>
+                        <Badge color="info" pill>
                           -15%
                         </Badge>
 
@@ -391,9 +391,9 @@ class Overview_Merchant extends React.Component {
                       />
                     </div>
                   </td>
-                  <td>Lagos, Ikeja</td>
-                  <td className="text-right">120</td>
-                  <td className="text-right">53.23%</td>
+                  <td>ADE4463</td>
+                  <td className="text-right">120₦</td>
+                  <td className="text-right">Active</td>
                 </tr>
                 <tr>
                   <td>
@@ -404,9 +404,9 @@ class Overview_Merchant extends React.Component {
                       />
                     </div>
                   </td>
-                  <td>Kano, Kano</td>
-                  <td className="text-right">63</td>
-                  <td className="text-right">20.43%</td>
+                  <td>JEM7428</td>
+                  <td className="text-right">63₦</td>
+                  <td className="text-right">Active</td>
                 </tr>
                 <tr>
                   <td>
@@ -417,9 +417,9 @@ class Overview_Merchant extends React.Component {
                       />
                     </div>
                   </td>
-                  <td>Osun, Oshogbo</td>
-                  <td className="text-right">27</td>
-                  <td className="text-right">10.35%</td>
+                  <td>Osun2821</td>
+                  <td className="text-right">27₦</td>
+                  <td className="text-right">Active</td>
                 </tr>
                 <tr>
                   <td>
@@ -430,9 +430,9 @@ class Overview_Merchant extends React.Component {
                       />
                     </div>
                   </td>
-                  <td>Edo, Benin</td>
-                  <td className="text-right">21</td>
-                  <td className="text-right">7.87%</td>
+                  <td>MARY1719</td>
+                  <td className="text-right">21₦</td>
+                  <td className="text-right">Deactive</td>
                 </tr>
                 <tr>
                   <td>
@@ -443,9 +443,9 @@ class Overview_Merchant extends React.Component {
                       />
                     </div>
                   </td>
-                  <td>Cross River, Calabar</td>
-                  <td className="text-right">14</td>
-                  <td className="text-right">5.94%</td>
+                  <td>MARK7372</td>
+                  <td className="text-right">14₦</td>
+                  <td className="text-right">Deactive</td>
                 </tr>
                 <tr>
                   <td>
@@ -456,9 +456,9 @@ class Overview_Merchant extends React.Component {
                       />
                     </div>
                   </td>
-                  <td>Oyo, Ibadan</td>
-                  <td className="text-right">5</td>
-                  <td className="text-right">4.34%</td>
+                  <td>Cashier</td>
+                  <td className="text-right">50₦</td>
+                  <td className="text-right">Active</td>
                 </tr>
               </tbody>
             </Table>
