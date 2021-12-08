@@ -299,7 +299,7 @@ class Overview_Merchant extends React.Component {
                     </Col>
                     <Col md="8" xs="7">
                       <div className="numbers">
-                        <p className="card-category">Total Load</p>
+                        <p className="card-category">Total Card Load</p>
                         <CardTitle tag="p">₦ 0</CardTitle>
                         <p />
                       </div>
@@ -495,7 +495,7 @@ class Overview_Merchant extends React.Component {
   <Col md="6">
     <Card>
       <CardHeader>
-        <CardTitle tag="h4">Agent Load Commission</CardTitle>
+        <CardTitle tag="h4">Agents Load Commission</CardTitle>
         <p className="card-category">
 
         </p>
