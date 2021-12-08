@@ -113,8 +113,8 @@ class Overview_Merchant extends React.Component {
               <CardFooter>
                 <hr />
                 <div className="stats">
-                  <i className="nc-icon " />
-                  Excl. VAT fees.
+                  <i className="nc-icon nc-alert-circle-i" />
+                  Excl. Service fee.
                 </div>
               </CardFooter>
             </Card>
@@ -160,7 +160,7 @@ class Overview_Merchant extends React.Component {
                     <Col md="8" xs="7">
                       <div className="numbers">
                         <p className="card-category">Merchant Agent Commission</p>
-                        <CardTitle tag="p">₦ 35,756</CardTitle>
+                        <CardTitle tag="p">₦ 0</CardTitle>
                         <p />
                       </div>
                     </Col>
@@ -169,7 +169,7 @@ class Overview_Merchant extends React.Component {
                 <CardFooter>
                   <hr />
                   <div className="stats">
-                    <i className="nc-icon" />Based on weekly expenditure and earnings.
+                    <i className="nc-icon nc-bank" />Since creation of Merchant Account.
                   </div>
                 </CardFooter>
               </Card>
@@ -187,7 +187,7 @@ class Overview_Merchant extends React.Component {
                     </Col>
                     <Col md="8" xs="7">
                       <div className="numbers">
-                        <p className="card-category">Merchant Agent Counts</p>
+                        <p className="card-category">Merchant Agent Count</p>
                         <CardTitle tag="p">0</CardTitle>
                         <p />
                       </div>
@@ -197,7 +197,7 @@ class Overview_Merchant extends React.Component {
                 <CardFooter>
                   <hr />
                   <div className="stats">
-                    <i className="nc-icon " />
+                    <i className="nc-icon nc-bank" />
                     Since creation of Merchant Account.
                   </div>
                 </CardFooter>
@@ -222,8 +222,8 @@ class Overview_Merchant extends React.Component {
                 <CardFooter>
                   <hr />
                   <div className="stats">
-                    <i className="nc-icon nc-user-run" />
-                    Activity This week.
+                    <i className="nc-icon nc-bank" />
+                    Since creation of Merchant Account.
                   </div>
                 </CardFooter>
               </Card>
@@ -241,7 +241,7 @@ class Overview_Merchant extends React.Component {
                     <Col md="8" xs="7">
                       <div className="numbers">
                         <p className="card-category">Total Merchant Earnings Value</p>
-                        <CardTitle tag="p">₦ 13,400</CardTitle>
+                        <CardTitle tag="p">₦ 0</CardTitle>
                         <p />
                       </div>
                     </Col>
