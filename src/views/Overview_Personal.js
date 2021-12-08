@@ -79,7 +79,7 @@ class Overview_Personal extends React.Component {
 
         <div className="content">
         <h5>
-        EmbassyCard Customer Status & Personal Features
+        EmbassyCard Customer Analytics.
         </h5>
           <Row>
             <Col lg="4" md="6" sm="6" >

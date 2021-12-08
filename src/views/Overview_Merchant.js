@@ -59,7 +59,7 @@ class Overview_Merchant extends React.Component {
 
         <div className="content">
         <h5>
-        EmbassyCard Merchant Status & Business Features
+        EmbassyCard Merchant Analytics.
         </h5>
 
 
