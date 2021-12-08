@@ -270,11 +270,11 @@ class Overview_Merchant extends React.Component {
           </h5>
 
           <Row>
-            <Col md="4">
+            <Col md="5">
               <Card>
                 <CardHeader>
                 <Row>
-                  <Col sm="7">
+                  <Col sm="5">
                     <div className="numbers pull-left">Customer Traffic-to-Sales</div>
                   </Col>
                   <Col sm="5">
@@ -312,7 +312,7 @@ class Overview_Merchant extends React.Component {
               </Card>
             </Col>
 
-            <Col lg="4" sm="6">
+            <Col lg="6" sm="6">
               <Card>
                 <CardHeader>
                   <Row>
@@ -361,7 +361,7 @@ class Overview_Merchant extends React.Component {
               </Card>
             </Col>
 
-  <Col md="4">
+  <Col md="5">
     <Card>
       <CardHeader>
         <CardTitle tag="h4">Merchant Sales Regions</CardTitle>
