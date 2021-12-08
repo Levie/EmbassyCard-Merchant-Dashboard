@@ -405,7 +405,7 @@ class Overview_Merchant extends React.Component {
       </CardHeader>
       <CardBody>
         <Row>
-          <Col md="11">
+          <Col md="12">
             <Table responsive>
               <tbody>
               <tr>
@@ -491,6 +491,7 @@ class Overview_Merchant extends React.Component {
       </CardBody>
     </Card>
   </Col>
+
   <Col md="6">
     <Card>
       <CardHeader>
@@ -501,7 +502,7 @@ class Overview_Merchant extends React.Component {
       </CardHeader>
       <CardBody>
         <Row>
-          <Col md="11">
+          <Col md="12">
             <Table responsive>
               <tbody>
               <tr>
