@@ -107,7 +107,7 @@ class AdminNavbar2 extends React.Component {
               </div>
               <NavbarBrand href="#pablo" onClick={(e) => e.preventDefault()}>
                 <span className="d-none d-md-block">
-                  <b>EC: For Smarter Money Management</b>
+                  EC: For Smarter Money Management
                 </span>
                 <span className="d-block d-md-none"><b>EC: For Smarter Money Management</b></span>
               </NavbarBrand>
