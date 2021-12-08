@@ -209,12 +209,12 @@ class Overview_Merchant extends React.Component {
                 <Row>
                   <Col md="4" xs="5">
                     <div className="icon-big text-center icon-warning">
-                      <i className="nc-icon nc-simple-add text-muted" />
+                      <i className="nc-icon nc-shop text-muted" />
                     </div>
                   </Col>
                   <Col md="8" xs="7">
                     <div className="numbers">
-                      <p className="card-category">Agent Count</p>
+                      <p className="card-category">Cash Back</p>
                       <CardTitle tag="p">0</CardTitle>
                       <p />
                     </div>
@@ -243,7 +243,7 @@ class Overview_Merchant extends React.Component {
                 <Row>
                   <Col md="4" xs="5">
                     <div className="icon-big text-center icon-warning">
-                      <i className="nc-icon nc-shop text-muted" />
+                      <i className="nc-icon nc-single-02 text-muted" />
                     </div>
                   </Col>
                   <Col md="8" xs="7">
