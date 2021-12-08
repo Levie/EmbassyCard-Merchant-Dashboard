@@ -1022,6 +1022,77 @@ const chartExample12 = {
   },
 };
 
+// #########################################
+// // // used inside src/views/Charts.js
+// #########################################
+
+const chartExample13 = {
+  data: {
+    labels: [
+      "Jan",
+      "Feb",
+      "Mar",
+      "Apr",
+      "May",
+      "Jun",
+      "Jul",
+      "Aug",
+      "Sep",
+      "Oct",
+    ],
+    datasets: [
+      {
+        borderColor: "#6bd098",
+        backgroundColor: "#6bd098",
+        pointRadius: 0,
+        pointHoverRadius: 0,
+        borderWidth: 3,
+        barPercentage: 1.6,
+        data: [300, 310, 316, 322, 330, 326, 333, 345, 338, 354],
+      },
+
+    ],
+  },
+  options: {
+    legend: {
+      display: false,
+    },
+    tooltips: {
+      enabled: false,
+    },
+    scales: {
+      yAxes: [
+        {
+          ticks: {
+            fontColor: "#9f9f9f",
+            beginAtZero: false,
+            maxTicksLimit: 5,
+          },
+          gridLines: {
+            drawBorder: false,
+            zeroLineColor: "transparent",
+            color: "rgba(255,255,255,0.05)",
+          },
+        },
+      ],
+      xAxes: [
+        {
+          gridLines: {
+            drawBorder: false,
+            color: "rgba(255,255,255,0.1)",
+            zeroLineColor: "transparent",
+            display: false,
+          },
+          ticks: {
+            padding: 20,
+            fontColor: "#9f9f9f",
+          },
+        },
+      ],
+    },
+  },
+};
+
 module.exports = {
   // used for Charts and Dashboard views
   chartExample1,
@@ -1047,4 +1118,6 @@ module.exports = {
   chartExample11,
   // used for Charts view
   chartExample12,
+  // used for Charts view
+  chartExample13,
 };

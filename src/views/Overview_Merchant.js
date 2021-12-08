@@ -1,6 +1,6 @@
 import React from "react";
 // react plugin used to create charts
-import { Line, Doughnut } from "react-chartjs-2";
+import { Line } from "react-chartjs-2";
 // react plugin for creating vector maps
 //import { VectorMap } from "react-jvectormap";
 
@@ -14,7 +14,7 @@ import {
 // reactstrap components
 import {
   Badge,
-  Button,
+  //Button,
   Card,
   CardHeader,
   CardBody,
@@ -31,8 +31,9 @@ import {
 
 import {
 
-  chartExample2,
-  chartExample5,
+  //chartExample2,
+  //chartExample5,
+  chartExample13,
 
 } from "variables/charts.js";
 
@@ -302,98 +303,43 @@ class Overview_Merchant extends React.Component {
           </h5>
 
           <Row>
-            <Col md="5">
-              <Card>
-                <CardHeader>
-                <Row>
-                  <Col sm="5">
-                    <div className="numbers pull-left">Customer Traffic-to-Sales</div>
-                  </Col>
-                  <Col sm="5">
-                    <div className="pull-right">
-                      <Badge color="danger" pill>
-                        +6%
-                      </Badge>
-                    </div>
-                  </Col>
-                </Row>
 
 
-
-                </CardHeader>
-                <CardBody>
-                  <Doughnut
-                    data={chartExample5.data}
-                    options={chartExample5.options}
-                    className="ct-chart ct-perfect-fourth"
-                    height={150}
-                    width={318}
-                  />
-                </CardBody>
-                <CardFooter>
-                  <div className="legend">
-                    <i className="fa fa-circle text-danger" />
-                    Percentage of EmbassyCard customer merchant visits leading to a sale
-                  </div>
-                  <hr />
-                  <div className="stats">
-                    <i className="fa fa-calendar" />
-                    No. of EmbassyCard customers buying at Merchant
-                  </div>
-                </CardFooter>
-              </Card>
-            </Col>
 
             <Col lg="6" sm="6">
               <Card>
                 <CardHeader>
                   <Row>
                     <Col sm="7">
-                      <div className="numbers pull-left">Today's Sales Activity</div>
+                      <div className="numbers pull-left">Commission Earnings</div>
                     </Col>
                     <Col sm="5">
                       <div className="pull-right">
-                        <Badge color="danger" pill>
-                          +14%
+
+                        <Badge color="success" pill>
+                          -5%
                         </Badge>
+                        
                       </div>
                     </Col>
                   </Row>
                 </CardHeader>
                 <CardBody>
                   <h6 className="big-title">
-                    Total Earnings in the last 24 hours
+                    Sales Activity
                   </h6>
                   <Line
-                    data={chartExample2.data}
-                    options={chartExample2.options}
+                    data={chartExample13.data}
+                    options={chartExample13.options}
                     height={380}
                     width={828}
                   />
                 </CardBody>
-                <CardFooter>
-                  <hr />
-                  <Row>
-                    <Col sm="7">
-                      <div className="footer-title">View all transactions</div>
-                    </Col>
-                    <Col sm="5">
-                      <div className="pull-right">
-                        <Button
-                          className="btn-round btn-icon"
-                          color="danger"
-                          size="sm"
-                        >
-                          <i className="nc-icon nc-button-play" />
-                        </Button>
-                      </div>
-                    </Col>
-                  </Row>
-                </CardFooter>
+
               </Card>
             </Col>
 
-  <Col md="5">
+  <Col md="6">
     <Card>
       <CardHeader>
         <CardTitle tag="h4">Merchant Agents</CardTitle>
