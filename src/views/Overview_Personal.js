@@ -1,6 +1,6 @@
 import React from "react";
 // react plugin used to create charts
-import { Line, Doughnut, Pie } from "react-chartjs-2";
+import { Line, Pie } from "react-chartjs-2";
 // react plugin for creating vector maps
 //import { VectorMap } from "react-jvectormap";
 
@@ -36,7 +36,7 @@ import {
   // chartExample4,
   // chartExample5,
   // chartExample6,
-   chartExample7,
+  // chartExample7,
   // chartExample8,
   // chartExample9,
   chartExample10,
@@ -226,20 +226,14 @@ class Overview_Personal extends React.Component {
           </h5>
 
           <Row>
-          <Col lg="6" md="6" sm="6">
+          <Col lg="7" md="6" sm="6">
             <Card>
               <CardHeader>
               <Row>
                 <Col sm="7">
                   <div className="numbers pull-left">Embassy Card Usage</div>
                 </Col>
-                <Col sm="5">
-                  <div className="pull-right">
-                    <Badge color="warning" pill>
-                      +12%
-                    </Badge>
-                  </div>
-                </Col>
+
               </Row>
               </CardHeader>
               <CardBody>
@@ -271,35 +265,22 @@ class Overview_Personal extends React.Component {
                   <i className="fa fa-circle text-success" />
                   Person-2-Person Transfer (Cash Sent)
                 </div>
-                <hr />
-                <div className="stats">
-                  <i className="fa fa-calendar" />
-                  Track your activity of your EmbassyCard Experience
-                </div>
+
               </CardFooter>
             </Card>
           </Col>
 
-            <Col lg="4" md="6" sm="6">
+            <Col lg="7" md="6" sm="6">
               <Card>
                 <CardHeader>
                   <Row>
-                    <Col sm="6">
-                      <div className="numbers pull-left">Transaction Activity</div>
-                    </Col>
                     <Col sm="5">
-                      <div className="pull-right">
-                        <Badge color="info" pill>
-                          -24%
-                        </Badge>
-                      </div>
+                      <div className="numbers pull-left">Transaction Activity</div>
                     </Col>
                   </Row>
                 </CardHeader>
                 <CardBody>
-                  <h6 className="big-title">
-                    See how many transactions you have made so far with us at EmbassyCard.
-                  </h6>
+
                   <Line
                     data={chartExample10.data}
                     options={chartExample10.options}
@@ -312,24 +293,9 @@ class Overview_Personal extends React.Component {
                   <i className="fa fa-circle text-info" />
                   Cash Loaded (Bank-2-Card + Top Up + Cash In)
                 </div>
-                  <hr />
-                  <Row>
-                    <Col sm="7">
-                      <div className="footer-title">View all transactions</div>
-                    </Col>
-                    <Col sm="5">
-                      <div className="pull-right">
-                        <Button
-                          className="btn-round btn-icon"
-                          color="info"
-                          size="sm"
-                          href="/admin/regular-tables"
-                        >
-                          <i className="nc-icon nc-button-play" />
-                        </Button>
-                      </div>
-                    </Col>
-                  </Row>
+
+
+
                 </CardFooter>
               </Card>
             </Col>

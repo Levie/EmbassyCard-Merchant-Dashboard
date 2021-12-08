@@ -379,7 +379,7 @@ class Overview_Merchant extends React.Component {
       </CardHeader>
       <CardBody>
         <Row>
-          <Col md="12">
+          <Col md="11">
             <Table responsive>
               <tbody>
                 <tr>
