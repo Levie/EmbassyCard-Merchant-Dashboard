@@ -326,7 +326,7 @@ class Overview_Merchant extends React.Component {
 
 
           <h5>
-          Merchant Performance and Operations Insights
+          Performance and Operations Insights
           </h5>
 
           <Row>
