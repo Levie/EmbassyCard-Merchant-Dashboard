@@ -372,7 +372,7 @@ class Overview_Merchant extends React.Component {
   <Col md="6">
     <Card>
       <CardHeader>
-        <CardTitle tag="h4">Merchant Agents</CardTitle>
+        <CardTitle tag="h4">Float Management</CardTitle>
         <p className="card-category">
 
         </p>
@@ -389,7 +389,7 @@ class Overview_Merchant extends React.Component {
                   </div>
                 </td>
                 <td className="text-left">My Merchant Agents</td>
-                <td className="text-right">Invited By</td>
+                <td className="text-center">Invited By</td>
                 <td className="text-right">Float Balance</td>
               </tr>
                 <tr>
@@ -402,7 +402,7 @@ class Overview_Merchant extends React.Component {
                     </div>
                   </td>
                   <td>ADE4463</td>
-                  <td className="text-right">Greenhithe</td>
+                  <td className="text-center">Greenhithe</td>
                   <td className="text-right">1200₦</td>
                 </tr>
                 <tr>
@@ -415,7 +415,7 @@ class Overview_Merchant extends React.Component {
                     </div>
                   </td>
                   <td>JEM7428</td>
-                  <td className="text-right">JEM7429</td>
+                  <td className="text-center">JEM7429</td>
                   <td className="text-right">597₦</td>
                 </tr>
 
@@ -429,7 +429,7 @@ class Overview_Merchant extends React.Component {
                     </div>
                   </td>
                   <td>MARY1719</td>
-                  <td className="text-right">MARK7372</td>
+                  <td className="text-center">MARK7372</td>
                   <td className="text-right">2198₦</td>
                 </tr>
                 <tr>
@@ -442,7 +442,7 @@ class Overview_Merchant extends React.Component {
                     </div>
                   </td>
                   <td>MARK7372</td>
-                  <td className="text-right">OSUN2913</td>
+                  <td className="text-center">OSUN2913</td>
                   <td className="text-right">238₦</td>
                 </tr>
                 <tr>
@@ -455,8 +455,104 @@ class Overview_Merchant extends React.Component {
                     </div>
                   </td>
                   <td>Cashier</td>
-                  <td className="text-right">Greenhithe</td>
+                  <td className="text-center">Greenhithe</td>
                   <td className="text-right">598₦</td>
+                </tr>
+              </tbody>
+            </Table>
+          </Col>
+        </Row>
+      </CardBody>
+    </Card>
+  </Col>
+  <Col md="6">
+    <Card>
+      <CardHeader>
+        <CardTitle tag="h4">Commission Management</CardTitle>
+        <p className="card-category">
+
+        </p>
+      </CardHeader>
+      <CardBody>
+        <Row>
+          <Col md="11">
+            <Table responsive>
+              <tbody>
+              <tr>
+                <td>
+                  <div className="nc-icon">
+
+                  </div>
+                </td>
+                <td className="text-left">My Merchant Agents</td>
+                <td className="text-center">Invited By</td>
+                <td className="text-right">Loaded</td>
+              </tr>
+                <tr>
+                  <td>
+                    <div className="flag">
+                      <img
+                        alt="..."
+                        src={require("assets/img/flags/NG.png")}
+                      />
+                    </div>
+                  </td>
+                  <td>ADE4463</td>
+                  <td className="text-center">Greenhithe</td>
+                  <td className="text-right">123₦</td>
+                </tr>
+                <tr>
+                  <td>
+                    <div className="flag">
+                      <img
+                        alt="..."
+                        src={require("assets/img/flags/NG.png")}
+                      />
+                    </div>
+                  </td>
+                  <td>JEM7428</td>
+                  <td className="text-center">JEM7429</td>
+                  <td className="text-right">59₦</td>
+                </tr>
+
+                <tr>
+                  <td>
+                    <div className="flag">
+                      <img
+                        alt="..."
+                        src={require("assets/img/flags/NG.png")}
+                      />
+                    </div>
+                  </td>
+                  <td>MARY1719</td>
+                  <td className="text-center">MARK7372</td>
+                  <td className="text-right">298₦</td>
+                </tr>
+                <tr>
+                  <td>
+                    <div className="flag">
+                      <img
+                        alt="..."
+                        src={require("assets/img/flags/NG.png")}
+                      />
+                    </div>
+                  </td>
+                  <td>MARK7372</td>
+                  <td className="text-center">OSUN2913</td>
+                  <td className="text-right">28₦</td>
+                </tr>
+                <tr>
+                  <td>
+                    <div className="flag">
+                      <img
+                        alt="..."
+                        src={require("assets/img/flags/NG.png")}
+                      />
+                    </div>
+                  </td>
+                  <td>Cashier</td>
+                  <td className="text-center">Greenhithe</td>
+                  <td className="text-right">58₦</td>
                 </tr>
               </tbody>
             </Table>
@@ -468,8 +564,12 @@ class Overview_Merchant extends React.Component {
 </Row>
 
 
+
+
         </div>
+
       </>
+
     );
   }
 }
