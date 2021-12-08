@@ -88,7 +88,7 @@ class Overview_Merchant extends React.Component {
                 <hr />
                 <div className="stats">
                   <i className="nc-icon nc-alert-circle-i" />
-                  Maxmimum stored is ₦<b> 500,000.</b>
+                  Last Known.
                 </div>
               </CardFooter>
               </Card>
@@ -119,11 +119,35 @@ class Overview_Merchant extends React.Component {
               </CardFooter>
             </Card>
 
+            <Card className="card-stats">
+              <CardBody>
+                <Row>
+                  <Col md="4" xs="5">
+                    <div className="icon-big text-center icon-warning">
+                      <i className="nc-icon nc-basket text-muted" />
+                    </div>
+                  </Col>
+                  <Col md="8" xs="7">
+                    <div className="numbers">
+                      <p className="card-category">Value of Sales</p>
+                      <CardTitle tag="p">₦ 0</CardTitle>
+                      <p />
+                    </div>
+                  </Col>
+                </Row>
+              </CardBody>
+              <CardFooter>
+                <hr />
+                <div className="stats">
+                  <i className="nc-icon nc-bank" />
+                  Since Membership.
+                </div>
+              </CardFooter>
+            </Card>
+          </Col>
 
+          <Col lg="4" md="6" sm="6">
 
-
-            </Col>
-            <Col lg="4" md="6" sm="6">
             <Card className="card-stats">
               <CardBody>
                 <Row>
@@ -135,7 +159,7 @@ class Overview_Merchant extends React.Component {
                   <Col md="8" xs="7">
                     <div className="numbers">
                       <p className="card-category">Commission</p>
-                      <CardTitle tag="p">₦ 143,345</CardTitle>
+                      <CardTitle tag="p">₦ 0</CardTitle>
                       <p />
                     </div>
                   </Col>
@@ -145,10 +169,11 @@ class Overview_Merchant extends React.Component {
                 <hr />
                 <div className="stats">
                   <i className="nc-icon nc-bank" />
-                  Since creation of Merchant Account.
+                  Since Membership.
                 </div>
               </CardFooter>
             </Card>
+
               <Card className="card-stats">
                 <CardBody>
                   <Row>
@@ -159,7 +184,7 @@ class Overview_Merchant extends React.Component {
                     </Col>
                     <Col md="8" xs="7">
                       <div className="numbers">
-                        <p className="card-category">Merchant Agent Commission</p>
+                        <p className="card-category">Agent Commission</p>
                         <CardTitle tag="p">₦ 0</CardTitle>
                         <p />
                       </div>
@@ -170,6 +195,32 @@ class Overview_Merchant extends React.Component {
                   <hr />
                   <div className="stats">
                     <i className="nc-icon nc-bank" />Since creation of Merchant Account.
+                  </div>
+                </CardFooter>
+              </Card>
+
+              <Card className="card-stats">
+                <CardBody>
+                  <Row>
+                    <Col md="4" xs="5">
+                      <div className="icon-big text-center icon-warning">
+                        <i className="nc-icon nc-cart-simple text-muted" />
+                      </div>
+                    </Col>
+                    <Col md="8" xs="7">
+                      <div className="numbers">
+                        <p className="card-category">Total no. of Sales</p>
+                        <CardTitle tag="p">32</CardTitle>
+                        <p />
+                      </div>
+                    </Col>
+                  </Row>
+                </CardBody>
+                <CardFooter>
+                  <hr />
+                  <div className="stats">
+                    <i className="nc-icon nc-bank" />
+                    Since creation of Merchant Account.
                   </div>
                 </CardFooter>
               </Card>
@@ -207,40 +258,12 @@ class Overview_Merchant extends React.Component {
                   <Row>
                     <Col md="4" xs="5">
                       <div className="icon-big text-center icon-warning">
-                        <i className="nc-icon nc-cart-simple text-muted" />
-                      </div>
-                    </Col>
-                    <Col md="8" xs="7">
-                      <div className="numbers">
-                        <p className="card-category">Total no. of Sales</p>
-                        <CardTitle tag="p">32</CardTitle>
-                        <p />
-                      </div>
-                    </Col>
-                  </Row>
-                </CardBody>
-                <CardFooter>
-                  <hr />
-                  <div className="stats">
-                    <i className="nc-icon nc-bank" />
-                    Since creation of Merchant Account.
-                  </div>
-                </CardFooter>
-              </Card>
-            </Col>
-
-            <Col lg="4" md="6" sm="6">
-              <Card className="card-stats">
-                <CardBody>
-                  <Row>
-                    <Col md="4" xs="5">
-                      <div className="icon-big text-center icon-warning">
                         <i className="nc-icon nc-sun-fog-29 text-muted" />
                       </div>
                     </Col>
                     <Col md="8" xs="7">
                       <div className="numbers">
-                        <p className="card-category">Total Float Balance</p>
+                        <p className="card-category">Float Balance</p>
                         <CardTitle tag="p">₦ 0</CardTitle>
                         <p />
                       </div>
@@ -251,12 +274,13 @@ class Overview_Merchant extends React.Component {
                   <hr />
                   <div className="stats">
                     <i className="nc-icon nc-bank" />
-                    Since creation of Merchant Account.
+                    Merchant Agent Float Management.
                   </div>
                 </CardFooter>
               </Card>
-
             </Col>
+
+
           </Row>
 
           <h5>
