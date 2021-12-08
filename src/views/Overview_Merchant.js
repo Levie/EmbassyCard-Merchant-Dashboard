@@ -384,13 +384,13 @@ class Overview_Merchant extends React.Component {
               <tbody>
               <tr>
                 <td>
-                  <div className="nc-icon nc-world-2 text-center">
+                  <div className="nc-icon">
 
                   </div>
                 </td>
-                <td>Merchant</td>
-                <td className="text-right">Invite By</td>
-                <td className="text-right">Float</td>
+                <td className="text-left">My Merchant Agents</td>
+                <td className="text-right">Invited By</td>
+                <td className="text-right">Float Balance</td>
               </tr>
                 <tr>
                   <td>
