@@ -34,6 +34,7 @@ import {
   //chartExample2,
   //chartExample5,
   chartExample13,
+  chartExample14,
 
 } from "variables/charts.js";
 
@@ -283,7 +284,7 @@ class Overview_Merchant extends React.Component {
                   <hr />
                   <div className="stats">
                     <i className="nc-icon nc-bank" />
-                    Merchant Agent Float Management.
+                    Float Management.
                   </div>
                 </CardFooter>
               </Card>
@@ -319,18 +320,47 @@ class Overview_Merchant extends React.Component {
                         <Badge color="success" pill>
                           -5%
                         </Badge>
-                        
+
                       </div>
                     </Col>
                   </Row>
                 </CardHeader>
                 <CardBody>
-                  <h6 className="big-title">
-                    Sales Activity
-                  </h6>
+
                   <Line
                     data={chartExample13.data}
                     options={chartExample13.options}
+                    height={380}
+                    width={828}
+                  />
+                </CardBody>
+
+              </Card>
+            </Col>
+
+            <Col lg="6" sm="6">
+              <Card>
+                <CardHeader>
+                  <Row>
+                    <Col sm="7">
+                      <div className="numbers pull-left">Total Sales</div>
+                    </Col>
+                    <Col sm="5">
+                      <div className="pull-right">
+
+                        <Badge color="warning" pill>
+                          -15%
+                        </Badge>
+
+                      </div>
+                    </Col>
+                  </Row>
+                </CardHeader>
+                <CardBody>
+
+                  <Line
+                    data={chartExample14.data}
+                    options={chartExample14.options}
                     height={380}
                     width={828}
                   />

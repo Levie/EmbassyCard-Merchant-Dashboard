@@ -1048,9 +1048,80 @@ const chartExample13 = {
         pointHoverRadius: 0,
         borderWidth: 3,
         barPercentage: 1.6,
-        data: [300, 310, 316, 322, 330, 326, 333, 345, 338, 354],
+        data: [300000, 310000, 316000, 322000, 330000, 326000, 333000, 345000, 338000, 354000],
       },
 
+    ],
+  },
+  options: {
+    legend: {
+      display: false,
+    },
+    tooltips: {
+      enabled: false,
+    },
+    scales: {
+      yAxes: [
+        {
+          ticks: {
+            fontColor: "#9f9f9f",
+            beginAtZero: false,
+            maxTicksLimit: 5,
+          },
+          gridLines: {
+            drawBorder: false,
+            zeroLineColor: "transparent",
+            color: "rgba(255,255,255,0.05)",
+          },
+        },
+      ],
+      xAxes: [
+        {
+          gridLines: {
+            drawBorder: false,
+            color: "rgba(255,255,255,0.1)",
+            zeroLineColor: "transparent",
+            display: false,
+          },
+          ticks: {
+            padding: 20,
+            fontColor: "#9f9f9f",
+          },
+        },
+      ],
+    },
+  },
+};
+
+// #########################################
+// // // used inside src/views/Charts.js
+// #########################################
+
+const chartExample14 = {
+  data: {
+    labels: [
+      "Jan",
+      "Feb",
+      "Mar",
+      "Apr",
+      "May",
+      "Jun",
+      "Jul",
+      "Aug",
+      "Sep",
+      "Oct",
+    ],
+    datasets: [
+
+      {
+        borderColor: "#fcc468",
+        backgroundColor: "#fcc468",
+        pointRadius: 0,
+        pointHoverRadius: 0,
+        borderWidth: 3,
+        barPercentage: 1.6,
+        data: [270000, 234000, 253000, 209000, 251000, 210300, 160231, 250000, 238000, 224000],
+      },
     ],
   },
   options: {
@@ -1120,4 +1191,6 @@ module.exports = {
   chartExample12,
   // used for Charts view
   chartExample13,
+  // used for Charts view
+  chartExample14,
 };
