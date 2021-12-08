@@ -382,6 +382,16 @@ class Overview_Merchant extends React.Component {
           <Col md="11">
             <Table responsive>
               <tbody>
+              <tr>
+                <td>
+                  <div className="nc-icon nc-world-2 text-center">
+
+                  </div>
+                </td>
+                <td>Merchant</td>
+                <td className="text-right">Invite By</td>
+                <td className="text-right">Float</td>
+              </tr>
                 <tr>
                   <td>
                     <div className="flag">
@@ -392,8 +402,8 @@ class Overview_Merchant extends React.Component {
                     </div>
                   </td>
                   <td>ADE4463</td>
-                  <td className="text-right">120₦</td>
-                  <td className="text-right">Active</td>
+                  <td className="text-right">Greenhithe</td>
+                  <td className="text-right">1200₦</td>
                 </tr>
                 <tr>
                   <td>
@@ -405,22 +415,10 @@ class Overview_Merchant extends React.Component {
                     </div>
                   </td>
                   <td>JEM7428</td>
-                  <td className="text-right">63₦</td>
-                  <td className="text-right">Active</td>
+                  <td className="text-right">JEM7429</td>
+                  <td className="text-right">597₦</td>
                 </tr>
-                <tr>
-                  <td>
-                    <div className="flag">
-                      <img
-                        alt="..."
-                        src={require("assets/img/flags/NG.png")}
-                      />
-                    </div>
-                  </td>
-                  <td>Osun2821</td>
-                  <td className="text-right">27₦</td>
-                  <td className="text-right">Active</td>
-                </tr>
+
                 <tr>
                   <td>
                     <div className="flag">
@@ -431,8 +429,8 @@ class Overview_Merchant extends React.Component {
                     </div>
                   </td>
                   <td>MARY1719</td>
-                  <td className="text-right">21₦</td>
-                  <td className="text-right">Deactive</td>
+                  <td className="text-right">MARK7372</td>
+                  <td className="text-right">2198₦</td>
                 </tr>
                 <tr>
                   <td>
@@ -444,8 +442,8 @@ class Overview_Merchant extends React.Component {
                     </div>
                   </td>
                   <td>MARK7372</td>
-                  <td className="text-right">14₦</td>
-                  <td className="text-right">Deactive</td>
+                  <td className="text-right">OSUN2913</td>
+                  <td className="text-right">238₦</td>
                 </tr>
                 <tr>
                   <td>
@@ -457,8 +455,8 @@ class Overview_Merchant extends React.Component {
                     </div>
                   </td>
                   <td>Cashier</td>
-                  <td className="text-right">50₦</td>
-                  <td className="text-right">Active</td>
+                  <td className="text-right">Greenhithe</td>
+                  <td className="text-right">598₦</td>
                 </tr>
               </tbody>
             </Table>
