@@ -26,7 +26,7 @@
       &:not([data-background-color]){
         background-color: transparent;
       }
-      padding: 15px 15px 0;
+      padding: 15px 15px 0px;
       border: 0;
 
       .card-title{
@@ -87,11 +87,11 @@
     }
 
     .numbers {
-      font-size: 2em;
+      font-size: 1.9em;
     }
 
     .big-title {
-      font-size: 12px;
+      font-size: 13px;
       text-align: center;
       font-weight: 500;
       padding-bottom: 15px;
