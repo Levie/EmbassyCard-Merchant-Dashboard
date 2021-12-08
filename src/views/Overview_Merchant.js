@@ -494,7 +494,7 @@ class Overview_Merchant extends React.Component {
   <Col md="6">
     <Card>
       <CardHeader>
-        <CardTitle tag="h4">Commission Management</CardTitle>
+        <CardTitle tag="h4">Agent Load Commission</CardTitle>
         <p className="card-category">
 
         </p>

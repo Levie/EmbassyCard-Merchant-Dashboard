@@ -13,8 +13,8 @@ import { Line, Pie } from "react-chartjs-2";
 
 // reactstrap components
 import {
-  Badge,
-  Button,
+  //Badge,
+  //Button,
   Card,
   CardHeader,
   CardBody,
