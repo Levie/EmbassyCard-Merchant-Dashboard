@@ -104,7 +104,7 @@ class Overview_Merchant extends React.Component {
                   <Col md="8" xs="7">
                     <div className="numbers">
                       <p className="card-category">Total no. of Sales</p>
-                      <CardTitle tag="p">32</CardTitle>
+                      <CardTitle tag="p">0</CardTitle>
                       <p />
                     </div>
                   </Col>
@@ -285,6 +285,32 @@ class Overview_Merchant extends React.Component {
                   <div className="stats">
                     <i className="nc-icon nc-bank" />
                     Float Management.
+                  </div>
+                </CardFooter>
+              </Card>
+
+              <Card className="card-stats">
+                <CardBody>
+                  <Row>
+                    <Col md="4" xs="5">
+                      <div className="icon-big text-center icon-warning">
+                        <i className="nc-icon nc-credit-card text-muted" />
+                      </div>
+                    </Col>
+                    <Col md="8" xs="7">
+                      <div className="numbers">
+                        <p className="card-category">Total Load</p>
+                        <CardTitle tag="p">₦ 0</CardTitle>
+                        <p />
+                      </div>
+                    </Col>
+                  </Row>
+                </CardBody>
+                <CardFooter>
+                  <hr />
+                  <div className="stats">
+                    <i className="nc-icon nc-bank" />
+                    Since Membership.
                   </div>
                 </CardFooter>
               </Card>
