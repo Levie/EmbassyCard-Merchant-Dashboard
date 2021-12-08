@@ -212,7 +212,7 @@ class Overview_Merchant extends React.Component {
                   </Col>
                   <Col md="8" xs="7">
                     <div className="numbers">
-                      <p className="card-category">Merchant Agent Count</p>
+                      <p className="card-category">Agent Count</p>
                       <CardTitle tag="p">0</CardTitle>
                       <p />
                     </div>
@@ -396,9 +396,9 @@ class Overview_Merchant extends React.Component {
   <Col md="5">
     <Card>
       <CardHeader>
-        <CardTitle tag="h4">Merchant Sales Regions</CardTitle>
+        <CardTitle tag="h4">Merchant Agents</CardTitle>
         <p className="card-category">
-          Locations Spent
+
         </p>
       </CardHeader>
       <CardBody>
