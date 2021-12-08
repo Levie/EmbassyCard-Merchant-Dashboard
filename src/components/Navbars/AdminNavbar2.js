@@ -2,7 +2,7 @@ import React from "react";
 import classnames from "classnames";
 import {
   Button,
-  Collapse,
+  //Collapse,
   //DropdownToggle,
   //DropdownMenu,
   //DropdownItem,
@@ -107,33 +107,12 @@ class AdminNavbar2 extends React.Component {
               </div>
               <NavbarBrand href="#pablo" onClick={(e) => e.preventDefault()}>
                 <span className="d-none d-md-block">
-                  Your EC Dashboard: For Smarter Money Management
+                  EC Dashboard: For Smarter Money Management
                 </span>
-                <span className="d-block d-md-none">Your EC Dashboard: For Smarter Money Management</span>
+                <span className="d-block d-md-none">EC Dashboard: For Smarter Money Management</span>
               </NavbarBrand>
             </div>
-            <button
-              aria-controls="navigation-index"
-              aria-expanded={this.state.collapseOpen}
-              aria-label="Toggle navigation"
-              className="navbar-toggler"
-              // data-target="#navigation"
-              data-toggle="collapse"
-              type="button"
-              onClick={this.toggleCollapse}
-            >
-              <span className="navbar-toggler-bar navbar-kebab" />
-              <span className="navbar-toggler-bar navbar-kebab" />
-              <span className="navbar-toggler-bar navbar-kebab" />
-            </button>
-            <Collapse
-              className="justify-content-end"
-              navbar
-              isOpen={this.state.collapseOpen}
-            >
 
-
-            </Collapse>
           </Container>
         </Navbar>
       </>

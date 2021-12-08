@@ -78,9 +78,6 @@ class Overview_Personal extends React.Component {
       <>
 
         <div className="content">
-        <h2>
-        Welcome to your Dashboard: Customer Overview
-        </h2>
         <h5>
         EmbassyCard Customer Status & Personal Features
         </h5>
@@ -112,31 +109,7 @@ class Overview_Personal extends React.Component {
                   </div>
                 </CardFooter>
                 </Card>
-                <Card className="card-stats">
-                  <CardBody>
-                    <Row>
 
-                      <Col md="10" xs="7">
-                        <div className="numbers">
-                          <p className="card-category text-left">Card Membership Type:</p>
-                          <img
-                            alt="..."
-                            className="mb-1"
-                            src={require("assets/img/EC_Gold.jpg")}
-                          />
-                          <p />
-                        </div>
-                      </Col>
-                    </Row>
-                  </CardBody>
-                  <CardFooter>
-                    <hr />
-                    <div className="stats">
-                      <i className="nc-icon nc-alert-circle-i" />
-                      Membership since: <b>XX/X/XX</b>
-                    </div>
-                  </CardFooter>
-                </Card>
             </Col>
 
             <Col lg="4" md="6" sm="6">

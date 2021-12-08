@@ -58,9 +58,6 @@ class Overview_Merchant extends React.Component {
       <>
 
         <div className="content">
-        <h2>
-        Welcome to your Dashboard: Merchant Overview
-        </h2>
         <h5>
         EmbassyCard Merchant Status & Business Features
         </h5>
@@ -79,12 +76,14 @@ class Overview_Merchant extends React.Component {
                     </Col>
                     <Col md="8" xs="7">
                       <div className="numbers">
-                        <p className="card-category">Current Transaction Value</p>
+                        <p className="card-category">Total Transaction Value</p>
                         <CardTitle tag="p">₦ 350,000</CardTitle>
                         <p />
                       </div>
                     </Col>
+
                   </Row>
+
                 </CardBody>
                 <CardFooter>
                   <hr />
@@ -94,19 +93,18 @@ class Overview_Merchant extends React.Component {
                   </div>
                 </CardFooter>
                 </Card>
-
                 <Card className="card-stats">
                   <CardBody>
                     <Row>
-
-                      <Col md="10" xs="7">
+                      <Col md="4" xs="5">
+                        <div className="icon-big text-center icon-warning">
+                          <i className="nc-icon nc-air-baloon text-muted" />
+                        </div>
+                      </Col>
+                      <Col md="8" xs="7">
                         <div className="numbers">
-                          <p className="card-category text-left">Card Membership Type:</p>
-                          <img
-                            alt="..."
-                            className=""
-                            src={require("assets/img/EC_Gold.jpg")}
-                          />
+                          <p className="card-category">Total Value of Cash Settled </p>
+                          <CardTitle tag="p">₦ 163.5k</CardTitle>
                           <p />
                         </div>
                       </Col>
@@ -115,8 +113,8 @@ class Overview_Merchant extends React.Component {
                   <CardFooter>
                     <hr />
                     <div className="stats">
-                      <i className="nc-icon nc-alert-circle-i" />
-                      Membership since: <b>XX/X/XX</b>
+                      <i className="nc-icon " />
+                      Excl. VAT fees
                     </div>
                   </CardFooter>
                 </Card>
@@ -254,31 +252,7 @@ class Overview_Merchant extends React.Component {
                   </div>
                 </CardFooter>
               </Card>
-              <Card className="card-stats">
-                <CardBody>
-                  <Row>
-                    <Col md="4" xs="5">
-                      <div className="icon-big text-center icon-warning">
-                        <i className="nc-icon nc-air-baloon text-muted" />
-                      </div>
-                    </Col>
-                    <Col md="8" xs="7">
-                      <div className="numbers">
-                        <p className="card-category">Total Value of Cash Settled </p>
-                        <CardTitle tag="p">₦ 163.5k</CardTitle>
-                        <p />
-                      </div>
-                    </Col>
-                  </Row>
-                </CardBody>
-                <CardFooter>
-                  <hr />
-                  <div className="stats">
-                    <i className="nc-icon " />
-                    Excl. VAT fees
-                  </div>
-                </CardFooter>
-              </Card>
+
             </Col>
           </Row>
 
