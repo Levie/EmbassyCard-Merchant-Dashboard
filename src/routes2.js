@@ -14,14 +14,15 @@ import Dashboard_Month2Date_Personal from "views/Dashboard_Month2Date_Personal.j
 
 
 
-import RegularTables from "views/tables/RegularTables.js";
-import RegularTables2 from "views/tables/RegularTables2.js";
+//import RegularTables from "views/tables/RegularTables.js";
+//import RegularTables2 from "views/tables/RegularTables2.js";
 
 
 const routes2 = [
   {
     collapse: true,
     name: "Merchant",
+    //mini:"..",
     icon: "nc-icon nc-laptop",
     state: "MerchantCollapse",
     views: [
@@ -80,19 +81,19 @@ const routes2 = [
   //   component: Charts,
   //   layout: "/admin",
   // },
-  {
-    collapse: true,
-    name: "Transactions",
-    icon: "nc-icon nc-briefcase-24",
-    state: "tablesCollapse",
-    views: [
-      {
-        path: "/merchant-usage",
-        name: "Recent Usage",
-        mini: "..",
-        component: RegularTables,
-        layout: "/dashboard/merchant",
-      },
+  // {
+  //   collapse: true,
+  //   name: "Transactions",
+  //   icon: "nc-icon nc-briefcase-24",
+  //   state: "tablesCollapse",
+  //   views: [
+  //     {
+  //       path: "/merchant-usage",
+  //       name: "Recent Usage",
+  //       mini: "..",
+  //       component: RegularTables,
+  //       layout: "/dashboard/merchant",
+  //     },
       // {
       //   path: "/react-tables",
       //   name: "Account History",
@@ -107,8 +108,8 @@ const routes2 = [
       //   component: ExtendedTables,
       //   layout: "/dashboard/merchant",
       // },
-    ],
-  },
+  //   ],
+  // },
   // {
   //   collapse: true,
   //   name: "Account",
@@ -327,20 +328,20 @@ const routes2 = [
     //   component: Charts,
     //   layout: "/admin",
     // },
-    {
-      collapse: true,
-      name: "Transactions",
-      icon: "nc-icon nc-money-coins",
-      mini:"",
-      state: "tables2Collapse",
-      views: [
-        {
-          path: "/customer-usage",
-          name: "Recent Usage",
-          mini: "..",
-          component: RegularTables2,
-          layout: "/dashboard/merchant",
-        },
+    // {
+    //   collapse: true,
+    //   name: "Transactions",
+    //   icon: "nc-icon nc-money-coins",
+    //   mini:"",
+    //   state: "tables2Collapse",
+    //   views: [
+    //     {
+    //       path: "/customer-usage",
+    //       name: "Recent Usage",
+    //       mini: "..",
+    //       component: RegularTables2,
+    //       layout: "/dashboard/merchant",
+    //     },
         // {
         //   path: "/react-tables",
         //   name: "Account History",
@@ -355,8 +356,8 @@ const routes2 = [
         //   component: ExtendedTables,
         //   layout: "/dashboard/customer",
         // },
-      ],
-    },
+    //   ],
+    // },
 
 
 ],
