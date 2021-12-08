@@ -70,6 +70,32 @@ class Overview_Merchant extends React.Component {
                 <Row>
                   <Col md="4" xs="5">
                     <div className="icon-big text-center icon-warning">
+                      <i className="nc-icon nc-basket text-muted" />
+                    </div>
+                  </Col>
+                  <Col md="8" xs="7">
+                    <div className="numbers">
+                      <p className="card-category">Total Value of Sales</p>
+                      <CardTitle tag="p">₦ 0</CardTitle>
+                      <p />
+                    </div>
+                  </Col>
+                </Row>
+              </CardBody>
+              <CardFooter>
+                <hr />
+                <div className="stats">
+                  <i className="nc-icon nc-bank" />
+                  Since Membership.
+                </div>
+              </CardFooter>
+            </Card>
+
+            <Card className="card-stats">
+              <CardBody>
+                <Row>
+                  <Col md="4" xs="5">
+                    <div className="icon-big text-center icon-warning">
                       <i className="nc-icon nc-money-coins text-muted" />
                     </div>
                   </Col>
@@ -119,31 +145,6 @@ class Overview_Merchant extends React.Component {
               </CardFooter>
             </Card>
 
-            <Card className="card-stats">
-              <CardBody>
-                <Row>
-                  <Col md="4" xs="5">
-                    <div className="icon-big text-center icon-warning">
-                      <i className="nc-icon nc-basket text-muted" />
-                    </div>
-                  </Col>
-                  <Col md="8" xs="7">
-                    <div className="numbers">
-                      <p className="card-category">Value of Sales</p>
-                      <CardTitle tag="p">₦ 0</CardTitle>
-                      <p />
-                    </div>
-                  </Col>
-                </Row>
-              </CardBody>
-              <CardFooter>
-                <hr />
-                <div className="stats">
-                  <i className="nc-icon nc-bank" />
-                  Since Membership.
-                </div>
-              </CardFooter>
-            </Card>
           </Col>
 
           <Col lg="4" md="6" sm="6">
@@ -194,7 +195,7 @@ class Overview_Merchant extends React.Component {
                 <CardFooter>
                   <hr />
                   <div className="stats">
-                    <i className="nc-icon nc-bank" />Since creation of Merchant Account.
+                    <i className="nc-icon nc-bank" />Since Membership.
                   </div>
                 </CardFooter>
               </Card>
@@ -220,7 +221,7 @@ class Overview_Merchant extends React.Component {
                   <hr />
                   <div className="stats">
                     <i className="nc-icon nc-bank" />
-                    Since creation of Merchant Account.
+                    Since Membership.
                   </div>
                 </CardFooter>
               </Card>
@@ -249,7 +250,7 @@ class Overview_Merchant extends React.Component {
                   <hr />
                   <div className="stats">
                     <i className="nc-icon nc-bank" />
-                    Since creation of Merchant Account.
+                    Since Membership.
                   </div>
                 </CardFooter>
               </Card>
