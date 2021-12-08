@@ -62,62 +62,65 @@ class Overview_Merchant extends React.Component {
         EmbassyCard Merchant Analytics.
         </h5>
 
-
-
           <Row>
             <Col lg="4" md="6" sm="6">
-              <Card className="card-stats">
-                <CardBody>
-                  <Row>
-                    <Col md="4" xs="5">
-                      <div className="icon-big text-center icon-warning">
-                        <i className="nc-icon nc-money-coins text-muted" />
-                      </div>
-                    </Col>
-                    <Col md="8" xs="7">
-                      <div className="numbers">
-                        <p className="card-category">Total Transaction Value</p>
-                        <CardTitle tag="p">₦ 350,000</CardTitle>
-                        <p />
-                      </div>
-                    </Col>
 
-                  </Row>
-
-                </CardBody>
-                <CardFooter>
-                  <hr />
-                  <div className="stats">
-                    <i className="nc-icon nc-alert-circle-i" />
-                    Maxmimum stored is ₦<b> 500,000.</b>
-                  </div>
-                </CardFooter>
-                </Card>
-                <Card className="card-stats">
-                  <CardBody>
-                    <Row>
-                      <Col md="4" xs="5">
-                        <div className="icon-big text-center icon-warning">
-                          <i className="nc-icon nc-air-baloon text-muted" />
-                        </div>
-                      </Col>
-                      <Col md="8" xs="7">
-                        <div className="numbers">
-                          <p className="card-category">Total Value of Cash Settled </p>
-                          <CardTitle tag="p">₦ 163.5k</CardTitle>
-                          <p />
-                        </div>
-                      </Col>
-                    </Row>
-                  </CardBody>
-                  <CardFooter>
-                    <hr />
-                    <div className="stats">
-                      <i className="nc-icon " />
-                      Excl. VAT fees
+            <Card className="card-stats">
+              <CardBody>
+                <Row>
+                  <Col md="4" xs="5">
+                    <div className="icon-big text-center icon-warning">
+                      <i className="nc-icon nc-money-coins text-muted" />
                     </div>
-                  </CardFooter>
-                </Card>
+                  </Col>
+                  <Col md="8" xs="7">
+                    <div className="numbers">
+                      <p className="card-category">Redeem Balance</p>
+                      <CardTitle tag="p">₦ 0</CardTitle>
+                      <p />
+                    </div>
+                  </Col>
+
+                </Row>
+
+              </CardBody>
+              <CardFooter>
+                <hr />
+                <div className="stats">
+                  <i className="nc-icon nc-alert-circle-i" />
+                  Maxmimum stored is ₦<b> 500,000.</b>
+                </div>
+              </CardFooter>
+              </Card>
+
+            <Card className="card-stats">
+              <CardBody>
+                <Row>
+                  <Col md="4" xs="5">
+                    <div className="icon-big text-center icon-warning">
+                      <i className="nc-icon nc-air-baloon text-muted" />
+                    </div>
+                  </Col>
+                  <Col md="8" xs="7">
+                    <div className="numbers">
+                      <p className="card-category">Last Settlement</p>
+                      <CardTitle tag="p">₦ 0k</CardTitle>
+                      <p />
+                    </div>
+                  </Col>
+                </Row>
+              </CardBody>
+              <CardFooter>
+                <hr />
+                <div className="stats">
+                  <i className="nc-icon " />
+                  Excl. VAT fees.
+                </div>
+              </CardFooter>
+            </Card>
+
+
+
 
             </Col>
             <Col lg="4" md="6" sm="6">
@@ -131,7 +134,7 @@ class Overview_Merchant extends React.Component {
                   </Col>
                   <Col md="8" xs="7">
                     <div className="numbers">
-                      <p className="card-category">Total Cash Commission Value</p>
+                      <p className="card-category">Commission</p>
                       <CardTitle tag="p">₦ 143,345</CardTitle>
                       <p />
                     </div>
@@ -156,7 +159,7 @@ class Overview_Merchant extends React.Component {
                     </Col>
                     <Col md="8" xs="7">
                       <div className="numbers">
-                        <p className="card-category">Weekly Profit Growth Value</p>
+                        <p className="card-category">Merchant Agent Commission</p>
                         <CardTitle tag="p">₦ 35,756</CardTitle>
                         <p />
                       </div>
@@ -184,8 +187,8 @@ class Overview_Merchant extends React.Component {
                     </Col>
                     <Col md="8" xs="7">
                       <div className="numbers">
-                        <p className="card-category">Overall Sales Performance</p>
-                        <CardTitle tag="p">Good</CardTitle>
+                        <p className="card-category">Merchant Agent Counts</p>
+                        <CardTitle tag="p">0</CardTitle>
                         <p />
                       </div>
                     </Col>
