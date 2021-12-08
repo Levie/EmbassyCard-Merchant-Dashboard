@@ -260,6 +260,12 @@ class Overview_Merchant extends React.Component {
           </Row>
 
           <h5>
+          ___________________________
+          </h5>
+
+
+
+          <h5>
           Merchant Performance and Operations Insights
           </h5>
 
