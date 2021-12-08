@@ -129,8 +129,8 @@ class Overview_Merchant extends React.Component {
                   </Col>
                   <Col md="8" xs="7">
                     <div className="numbers">
-                      <p className="card-category">Last Settlement</p>
-                      <CardTitle tag="p">₦ 0k</CardTitle>
+                      <p className="card-category">Settlement</p>
+                      <CardTitle tag="p">₦ 0</CardTitle>
                       <p />
                     </div>
                   </Col>

@@ -38,7 +38,7 @@ const routes2 = [
 
   {
     collapse: true,
-    name: "Dashboard",
+    name: "Analytics",
     icon: "nc-icon nc-layout-11",
     state: "MDashCollapse",
     views: [
@@ -289,7 +289,7 @@ const routes2 = [
     },
     {
       collapse: true,
-      name: "Dashboard",
+      name: "Analytics",
       icon: "nc-icon nc-layout-11",
       //mini: "..",
       state: "CDashCollapse",
