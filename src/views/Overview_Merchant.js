@@ -215,7 +215,7 @@ class Overview_Merchant extends React.Component {
                   <Col md="8" xs="7">
                     <div className="numbers">
                       <p className="card-category">Total Cash Back</p>
-                      <CardTitle tag="p">0</CardTitle>
+                      <CardTitle tag="p">₦ 0</CardTitle>
                       <p />
                     </div>
                   </Col>
