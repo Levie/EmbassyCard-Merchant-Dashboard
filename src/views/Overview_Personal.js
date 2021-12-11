@@ -474,11 +474,11 @@ class Overview_Personal extends React.Component {
                   <CardFooter>
                   <div className="legend">
                     <i className="fa fa-circle text-warning" />
-                    Card Loaded
+                    Card Load
                   </div>
                   <div className="legend">
                     <i className="fa fa-circle text-info" />
-                    Card Deposits
+                    Card-2-Bank
                   </div>
 
 
