@@ -339,7 +339,7 @@ class Overview_Personal extends React.Component {
           </h5>
 
           <Row>
-          <Col lg="5" md="6" sm="6">
+          <Col lg="6" md="6" sm="6">
             <Card>
               <CardHeader>
               <Row>
@@ -359,17 +359,18 @@ class Overview_Personal extends React.Component {
               </CardBody>
               <CardFooter>
               <div className="legend">
-                <i className="fa fa-circle text-primary" />
-                Bank-2-Card
+                <i className="fa fa-circle text-danger" />
+                Bank-2-Card.
+                <i className="fa fa-circle text-info" />
+                Cash-In at Merchant.
+
               </div>
               <div className="legend">
-                <i className="fa fa-circle text-info" />
-                Cash-In at Merchant
-              </div>
-                <div className="legend">
-                  <i className="fa fa-circle text-warning" />
-                  Top-up via Website
-                </div>
+              <i className="fa fa-circle text-warning" />
+              Top-up via Website.
+            </div>
+
+
 
 
               </CardFooter>
@@ -377,36 +378,6 @@ class Overview_Personal extends React.Component {
           </Col>
 
             <Col lg="6" md="6" sm="6">
-              <Card>
-                <CardHeader>
-                  <Row>
-                    <Col sm="5">
-                      <div className="numbers pull-left">Load Activity</div>
-                    </Col>
-                  </Row>
-                </CardHeader>
-                <CardBody>
-
-                  <Line
-                    data={chartExample10.data}
-                    options={chartExample10.options}
-                    height={380}
-                    width={828}
-                  />
-                </CardBody>
-                <CardFooter>
-                <div className="legend">
-                  <i className="fa fa-circle text-info" />
-                  Cash Loaded (Bank-2-Card + Top Up + Cash In)
-                </div>
-
-
-
-                </CardFooter>
-              </Card>
-            </Col>
-
-            <Col lg="5" md="6" sm="6">
               <Card>
                 <CardHeader>
                 <Row>
@@ -426,27 +397,24 @@ class Overview_Personal extends React.Component {
                 </CardBody>
                 <CardFooter>
                 <div className="legend">
-                  <i className="fa fa-circle text-primary" />
-                  Card-2-Bank
-                </div>
-                <div className="legend">
+                  <i className="fa fa-circle text-danger" />
+                  Card-2-Bank.
                   <i className="fa fa-circle text-info" />
-                  Cash-out at Merchant
+                  Cash-out at Merchant.
+                    </div>
+              <div className="legend">
+                  <i className="fa fa-circle text-warning" />
+                  Online Payments.
+                  <i className="fa fa-circle text-success" />
+                  Offline Payments.
                 </div>
-                  <div className="legend">
-                    <i className="fa fa-circle text-warning" />
-                    Online Payments
-                  </div>
-                  <div className="legend">
-                    <i className="fa fa-circle text-success" />
-                    Offline Payments
-                  </div>
+
 
 
                 </CardFooter>
               </Card>
             </Col>
-            <Col lg="5" md="6" sm="6">
+            <Col lg="6" md="6" sm="6">
               <Card>
                 <CardHeader>
                 <Row>
@@ -467,7 +435,7 @@ class Overview_Personal extends React.Component {
                 </CardBody>
                 <CardFooter>
                 <div className="legend">
-                  <i className="fa fa-circle text-primary" />
+                  <i className="fa fa-circle text-danger" />
                   Card to Card
                 </div>
                 <div className="legend">
@@ -480,9 +448,39 @@ class Overview_Personal extends React.Component {
                 </CardFooter>
               </Card>
             </Col>
+
+
           </Row>
           <Row>
+          <Col lg="7" md="6" sm="6">
+            <Card>
+              <CardHeader>
+                <Row>
+                  <Col sm="5">
+                    <div className="numbers pull-left">Load Activity</div>
+                  </Col>
+                </Row>
+              </CardHeader>
+              <CardBody>
 
+                <Line
+                  data={chartExample10.data}
+                  options={chartExample10.options}
+                  height={380}
+                  width={828}
+                />
+              </CardBody>
+              <CardFooter>
+              <div className="legend">
+                <i className="fa fa-circle text-info" />
+                Cash Loaded (Bank-2-Card + Top Up + Cash In)
+              </div>
+
+
+
+              </CardFooter>
+            </Card>
+          </Col>
 </Row>
 
 
