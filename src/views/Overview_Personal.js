@@ -1,6 +1,6 @@
 import React from "react";
 // react plugin used to create charts
-import { Line, Pie, Doughnut } from "react-chartjs-2";
+import { Line, Doughnut } from "react-chartjs-2";
 // react plugin for creating vector maps
 //import { VectorMap } from "react-jvectormap";
 
@@ -41,6 +41,8 @@ import {
   // chartExample9,
   chartExample10,
   chartExample11,
+  chartExample15,
+  chartExample16,
 } from "variables/charts.js";
 
 // var mapData = {
@@ -404,41 +406,80 @@ class Overview_Personal extends React.Component {
               </Card>
             </Col>
 
-            <Card>
-              <CardHeader>
-              <Row>
-                <Col sm="7">
-                  <div className="numbers pull-left">Load Card</div>
-                </Col>
+            <Col lg="5" md="6" sm="6">
+              <Card>
+                <CardHeader>
+                <Row>
+                  <Col sm="7">
+                    <div className="numbers pull-left">Outgoing from Card</div>
+                  </Col>
 
-              </Row>
-              </CardHeader>
-              <CardBody>
-                <Pie
-                  data={chartExample11.data}
-                  options={chartExample11.options}
-                  width={456}
-                  height={300}
-                />
-              </CardBody>
-              <CardFooter>
-              <div className="legend">
-                <i className="fa fa-circle text-primary" />
-                Bank-2-Card
-              </div>
-              <div className="legend">
-                <i className="fa fa-circle text-info" />
-                Cash-In at Merchant
-              </div>
+                </Row>
+                </CardHeader>
+                <CardBody>
+                  <Doughnut
+                    data={chartExample15.data}
+                    options={chartExample15.options}
+                    width={456}
+                    height={300}
+                  />
+                </CardBody>
+                <CardFooter>
                 <div className="legend">
-                  <i className="fa fa-circle text-warning" />
-                  Top-up via Website
+                  <i className="fa fa-circle text-primary" />
+                  Card-2-Bank
+                </div>
+                <div className="legend">
+                  <i className="fa fa-circle text-info" />
+                  Cash-out at Merchant
+                </div>
+                  <div className="legend">
+                    <i className="fa fa-circle text-warning" />
+                    Online Payments
+                  </div>
+                  <div className="legend">
+                    <i className="fa fa-circle text-success" />
+                    Offline Payments
+                  </div>
+
+
+                </CardFooter>
+              </Card>
+            </Col>
+            <Col lg="5" md="6" sm="6">
+              <Card>
+                <CardHeader>
+                <Row>
+                  <Col sm="7">
+                    <div className="numbers pull-left">Transfers to Cards
+                  </div>
+                  </Col>
+
+                </Row>
+                </CardHeader>
+                <CardBody>
+                  <Doughnut
+                    data={chartExample16.data}
+                    options={chartExample16.options}
+                    width={456}
+                    height={300}
+                  />
+                </CardBody>
+                <CardFooter>
+                <div className="legend">
+                  <i className="fa fa-circle text-primary" />
+                  Card to Card
+                </div>
+                <div className="legend">
+                  <i className="fa fa-circle text-info" />
+                  Card to Card Remote
                 </div>
 
 
-              </CardFooter>
-            </Card>
 
+                </CardFooter>
+              </Card>
+            </Col>
           </Row>
           <Row>
 
