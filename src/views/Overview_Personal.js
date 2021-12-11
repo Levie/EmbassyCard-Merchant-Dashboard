@@ -94,8 +94,8 @@ class Overview_Personal extends React.Component {
                     </Col>
                     <Col md="8" xs="7">
                       <div className="numbers">
-                        <p className="card-category">Total Spent</p>
-                        <CardTitle tag="p">₦ 150,000</CardTitle>
+                        <p className="card-category">Offline Payments</p>
+                        <CardTitle tag="p">₦ 0</CardTitle>
                         <p />
                       </div>
                     </Col>
@@ -105,10 +105,36 @@ class Overview_Personal extends React.Component {
                   <hr />
                   <div className="stats">
                     <i className="nc-icon nc-alert-circle-i" />
-                    Online  / Offline Payment
+                    Card Payment.
                   </div>
                 </CardFooter>
                 </Card>
+
+                <Card className="card-stats">
+                  <CardBody>
+                    <Row>
+                      <Col md="4" xs="5">
+                        <div className="icon-big text-center icon-warning">
+                          <i className="nc-icon nc-mobile text-primary" />
+                        </div>
+                      </Col>
+                      <Col md="8" xs="7">
+                        <div className="numbers">
+                          <p className="card-category">Online Payments</p>
+                          <CardTitle tag="p">₦ 0</CardTitle>
+                          <p />
+                        </div>
+                      </Col>
+                    </Row>
+                  </CardBody>
+                  <CardFooter>
+                    <hr />
+                    <div className="stats">
+                      <i className="nc-icon nc-alert-circle-i" />
+                      Card Payment.
+                    </div>
+                  </CardFooter>
+                  </Card>
 
             </Col>
 
@@ -123,8 +149,8 @@ class Overview_Personal extends React.Component {
                   </Col>
                   <Col md="8" xs="7">
                     <div className="numbers">
-                      <p className="card-category">Total Digital Cash Back</p>
-                      <CardTitle tag="p">₦ 67,035</CardTitle>
+                      <p className="card-category">Cash Back</p>
+                      <CardTitle tag="p">₦ 0</CardTitle>
                       <p />
                     </div>
                   </Col>
@@ -134,7 +160,7 @@ class Overview_Personal extends React.Component {
                 <hr />
                 <div className="stats">
                   <i className="nc-icon nc-basket" />
-                  Cash Out at Merchant
+                  Cash Out at Merchant.
                 </div>
               </CardFooter>
             </Card>
@@ -148,8 +174,8 @@ class Overview_Personal extends React.Component {
                     </Col>
                     <Col md="8" xs="7">
                       <div className="numbers">
-                        <p className="card-category">Total Digital Cash Deposit</p>
-                        <CardTitle tag="p">₦ 21,330</CardTitle>
+                        <p className="card-category">Cash Deposit</p>
+                        <CardTitle tag="p">₦ 0</CardTitle>
                         <p />
                       </div>
                     </Col>
@@ -158,7 +184,7 @@ class Overview_Personal extends React.Component {
                 <CardFooter>
                   <hr />
                   <div className="stats">
-                    <i className="nc-icon nc-bank" />Card-2-Bank
+                    <i className="nc-icon nc-bank" />Card-2-Bank.
                   </div>
                 </CardFooter>
               </Card>
@@ -176,8 +202,8 @@ class Overview_Personal extends React.Component {
                     </Col>
                     <Col md="8" xs="7">
                       <div className="numbers">
-                        <p className="card-category">Total Digital Cash Loaded</p>
-                        <CardTitle tag="p">₦ 43,345</CardTitle>
+                        <p className="card-category">Card Load</p>
+                        <CardTitle tag="p">₦ 0</CardTitle>
                         <p />
                       </div>
                     </Col>
@@ -186,8 +212,8 @@ class Overview_Personal extends React.Component {
                 <CardFooter>
                   <hr />
                   <div className="stats">
-                    <i className="nc-icon nc-bank" />
-                    Bank-2-Card/Cash Top Up With Merchant
+                    <i className="nc-icon nc-basket" />
+                    Cash In at Merchant.
                   </div>
                 </CardFooter>
               </Card>
@@ -201,8 +227,8 @@ class Overview_Personal extends React.Component {
                     </Col>
                     <Col md="8" xs="7">
                       <div className="numbers">
-                        <p className="card-category">Total Digital Cash Transfered</p>
-                        <CardTitle tag="p">₦ 163.5k</CardTitle>
+                        <p className="card-category">Transfers</p>
+                        <CardTitle tag="p">₦ 0</CardTitle>
                         <p />
                       </div>
                     </Col>
@@ -212,7 +238,7 @@ class Overview_Personal extends React.Component {
                   <hr />
                   <div className="stats">
                     <i className="nc-icon nc-diamond" />
-                    Total Amount of P2P Transfers
+                    Card-to-Card.
                   </div>
                 </CardFooter>
               </Card>
