@@ -364,7 +364,7 @@ class Overview_Personal extends React.Component {
                 <CardHeader>
                   <Row>
                     <Col sm="5">
-                      <div className="numbers pull-left">Transaction Activity</div>
+                      <div className="numbers pull-left">Load Activity</div>
                     </Col>
                   </Row>
                 </CardHeader>
