@@ -115,7 +115,7 @@ class Overview_Personal extends React.Component {
                     <Row>
                       <Col md="4" xs="5">
                         <div className="icon-big text-center icon-warning">
-                          <i className="nc-icon nc-mobile text-primary" />
+                          <i className="nc-icon nc-tv-2 text-primary" />
                         </div>
                       </Col>
                       <Col md="8" xs="7">
@@ -135,6 +135,34 @@ class Overview_Personal extends React.Component {
                     </div>
                   </CardFooter>
                   </Card>
+
+                  <Card className="card-stats">
+                    <CardBody>
+                      <Row>
+                        <Col md="4" xs="5">
+                          <div className="icon-big text-center icon-warning">
+                            <i className="nc-icon nc-refresh-69 text-primary" />
+                          </div>
+                        </Col>
+                        <Col md="8" xs="7">
+                          <div className="numbers">
+                            <p className="card-category">Card Top-Up</p>
+                            <CardTitle tag="p">₦ 0</CardTitle>
+                            <p />
+                          </div>
+                        </Col>
+                      </Row>
+                    </CardBody>
+                    <CardFooter>
+                      <hr />
+                      <div className="stats">
+                        <i className="nc-icon nc-alert-circle-i" />
+                        Load Card from Website.
+                      </div>
+                    </CardFooter>
+                    </Card>
+
+
 
             </Col>
 
@@ -189,6 +217,33 @@ class Overview_Personal extends React.Component {
                 </CardFooter>
               </Card>
 
+              <Card className="card-stats">
+                <CardBody>
+                  <Row>
+                    <Col md="4" xs="5">
+                      <div className="icon-big text-center icon-warning">
+                        <i className="nc-icon nc-single-copy-04 text-primary" />
+                      </div>
+                    </Col>
+                    <Col md="8" xs="7">
+                      <div className="numbers">
+                        <p className="card-category">Request-2-Pay</p>
+                        <CardTitle tag="p">₦ 0</CardTitle>
+                        <p />
+                      </div>
+                    </Col>
+                  </Row>
+                </CardBody>
+                <CardFooter>
+                  <hr />
+                  <div className="stats">
+                    <i className="nc-icon nc-alert-circle-i" />
+                    Unpaid Bills.
+                  </div>
+                </CardFooter>
+                </Card>
+
+
             </Col>
 
             <Col lg="4" md="6" sm="6">
@@ -207,6 +262,7 @@ class Overview_Personal extends React.Component {
                         <p />
                       </div>
                     </Col>
+
                   </Row>
                 </CardBody>
                 <CardFooter>
@@ -242,6 +298,7 @@ class Overview_Personal extends React.Component {
                   </div>
                 </CardFooter>
               </Card>
+
             </Col>
 
 
