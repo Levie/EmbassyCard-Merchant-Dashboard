@@ -1,6 +1,6 @@
 import React from "react";
 // react plugin used to create charts
-import { Line, Pie } from "react-chartjs-2";
+import { Line, Pie, Doughnut } from "react-chartjs-2";
 // react plugin for creating vector maps
 //import { VectorMap } from "react-jvectormap";
 
@@ -104,7 +104,7 @@ class Overview_Personal extends React.Component {
                 <CardFooter>
                   <hr />
                   <div className="stats">
-                    <i className="nc-icon nc-alert-circle-i" />
+                    <i className="nc-icon nc-diamond" />
                     Card Payment.
                   </div>
                 </CardFooter>
@@ -130,7 +130,7 @@ class Overview_Personal extends React.Component {
                   <CardFooter>
                     <hr />
                     <div className="stats">
-                      <i className="nc-icon nc-alert-circle-i" />
+                      <i className="nc-icon nc-diamond" />
                       Card Payment.
                     </div>
                   </CardFooter>
@@ -156,7 +156,7 @@ class Overview_Personal extends React.Component {
                     <CardFooter>
                       <hr />
                       <div className="stats">
-                        <i className="nc-icon nc-alert-circle-i" />
+                        <i className="nc-icon nc-bookmark-2" />
                         Load Card from Website.
                       </div>
                     </CardFooter>
@@ -197,7 +197,7 @@ class Overview_Personal extends React.Component {
                   <Row>
                     <Col md="4" xs="5">
                       <div className="icon-big text-center icon-warning">
-                        <i className="nc-icon nc-credit-card text-primary" />
+                        <i className="nc-icon nc-box-2 text-primary" />
                       </div>
                     </Col>
                     <Col md="8" xs="7">
@@ -212,7 +212,7 @@ class Overview_Personal extends React.Component {
                 <CardFooter>
                   <hr />
                   <div className="stats">
-                    <i className="nc-icon nc-bank" />Card-2-Bank.
+                    <i className="nc-icon nc-credit-card" />Card-2-Bank.
                   </div>
                 </CardFooter>
               </Card>
@@ -257,7 +257,7 @@ class Overview_Personal extends React.Component {
                     </Col>
                     <Col md="8" xs="7">
                       <div className="numbers">
-                        <p className="card-category">Card Load</p>
+                        <p className="card-category">Cash Load</p>
                         <CardTitle tag="p">₦ 0</CardTitle>
                         <p />
                       </div>
@@ -268,8 +268,8 @@ class Overview_Personal extends React.Component {
                 <CardFooter>
                   <hr />
                   <div className="stats">
-                    <i className="nc-icon nc-bank" />
-                    Bank-2-Card, TopUp & Cash-In.
+                    <i className="nc-icon nc-basket" />
+                    Cash In at Merchant.
                   </div>
                 </CardFooter>
               </Card>
@@ -293,11 +293,37 @@ class Overview_Personal extends React.Component {
                 <CardFooter>
                   <hr />
                   <div className="stats">
-                    <i className="nc-icon nc-diamond" />
+                    <i className="nc-icon nc-credit-card" />
                     Card-to-Card.
                   </div>
                 </CardFooter>
               </Card>
+              <Card className="card-stats">
+                <CardBody>
+                  <Row>
+                    <Col md="4" xs="5">
+                      <div className="icon-big text-center icon-warning">
+                        <i className="nc-icon nc-bank text-primary" />
+                      </div>
+                    </Col>
+                    <Col md="8" xs="7">
+                      <div className="numbers">
+                        <p className="card-category">Card Loaded</p>
+                        <CardTitle tag="p">₦ 0</CardTitle>
+                        <p />
+                      </div>
+                    </Col>
+                  </Row>
+                </CardBody>
+                <CardFooter>
+                  <hr />
+                  <div className="stats">
+                    <i className="nc-icon nc-diamond" />
+                    Bank-2-Card.
+                  </div>
+                </CardFooter>
+              </Card>
+
 
             </Col>
 
@@ -316,13 +342,13 @@ class Overview_Personal extends React.Component {
               <CardHeader>
               <Row>
                 <Col sm="7">
-                  <div className="numbers pull-left">Embassy Card Usage</div>
+                  <div className="numbers pull-left">Load Card</div>
                 </Col>
 
               </Row>
               </CardHeader>
               <CardBody>
-                <Pie
+                <Doughnut
                   data={chartExample11.data}
                   options={chartExample11.options}
                   width={456}
@@ -332,28 +358,17 @@ class Overview_Personal extends React.Component {
               <CardFooter>
               <div className="legend">
                 <i className="fa fa-circle text-primary" />
-                Online Payments
+                Bank-2-Card
               </div>
               <div className="legend">
-                <i className="fa fa-circle text-danger" />
-                Offline Payments
+                <i className="fa fa-circle text-info" />
+                Cash-In at Merchant
               </div>
                 <div className="legend">
                   <i className="fa fa-circle text-warning" />
-                  Cash Back (Cash Out)
+                  Top-up via Website
                 </div>
-                <div className="legend">
-                  <i className="fa fa-circle text-info" />
-                  Card Loaded
-                </div>
-                <div className="legend">
-                  <i className="fa fa-circle text-muted" />
-                  Cash Deposit
-                </div>
-                <div className="legend">
-                  <i className="fa fa-circle text-success" />
-                  Transfers
-                </div>
+
 
               </CardFooter>
             </Card>
@@ -389,6 +404,40 @@ class Overview_Personal extends React.Component {
               </Card>
             </Col>
 
+            <Card>
+              <CardHeader>
+              <Row>
+                <Col sm="7">
+                  <div className="numbers pull-left">Load Card</div>
+                </Col>
+
+              </Row>
+              </CardHeader>
+              <CardBody>
+                <Pie
+                  data={chartExample11.data}
+                  options={chartExample11.options}
+                  width={456}
+                  height={300}
+                />
+              </CardBody>
+              <CardFooter>
+              <div className="legend">
+                <i className="fa fa-circle text-primary" />
+                Bank-2-Card
+              </div>
+              <div className="legend">
+                <i className="fa fa-circle text-info" />
+                Cash-In at Merchant
+              </div>
+                <div className="legend">
+                  <i className="fa fa-circle text-warning" />
+                  Top-up via Website
+                </div>
+
+
+              </CardFooter>
+            </Card>
 
           </Row>
           <Row>

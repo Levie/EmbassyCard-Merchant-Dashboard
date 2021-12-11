@@ -885,16 +885,16 @@ const chartExample10 = {
 
 const chartExample11 = {
   data: {
-    labels: [1, 2, 3, 4, 5],
+    labels: [1, 2, 3],
     datasets: [
       {
         label: "Emails",
         pointRadius: 0,
         pointHoverRadius: 0,
-        backgroundColor: ["#e3e3e3", "#4acccd", "#fcc468", "#ef8157", "#6bd098" ],
+        backgroundColor: ["#4bdcbd", "#4acccd", "#feb201" ],
         borderWidth: 0,
         barPercentage: 1.6,
-        data: [80, 180, 330, 280, 780],
+        data: [330, 280, 780],
       },
     ],
   },
