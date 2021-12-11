@@ -269,7 +269,7 @@ class Overview_Personal extends React.Component {
                   <hr />
                   <div className="stats">
                     <i className="nc-icon nc-bank" />
-                    Bank-2-Card & Cash In at Merchant.
+                    Bank-2-Card, TopUp & Cash-In.
                   </div>
                 </CardFooter>
               </Card>
