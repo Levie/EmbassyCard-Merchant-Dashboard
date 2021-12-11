@@ -319,9 +319,8 @@ class Overview_Merchant extends React.Component {
 
           </Row>
 
-          <h5><center>
-          _______________________________________
-          </center></h5>
+          <hr />
+
 
 
 
