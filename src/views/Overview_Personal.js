@@ -490,7 +490,7 @@ class Overview_Personal extends React.Component {
 
           </Row>
           <Row>
-          <Col lg="7" md="6" sm="6">
+          <Col lg="6" md="6" sm="6">
             <Card>
               <CardHeader>
                 <Row>
