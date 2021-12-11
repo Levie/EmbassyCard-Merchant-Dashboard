@@ -304,6 +304,8 @@ class Overview_Personal extends React.Component {
 
           </Row>
 
+
+  <hr />
           <h5>
           Spending Behaviour and Insights
           </h5>
