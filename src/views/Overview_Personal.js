@@ -382,7 +382,7 @@ class Overview_Personal extends React.Component {
                 <CardHeader>
                 <Row>
                   <Col sm="7">
-                    <div className="numbers pull-left">Outgoing from Card</div>
+                    <div className="numbers pull-left">Card Outgoings</div>
                   </Col>
 
                 </Row>
