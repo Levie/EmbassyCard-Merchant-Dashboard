@@ -457,7 +457,7 @@ class Overview_Personal extends React.Component {
                   <CardHeader>
                   <Row>
                     <Col sm="7">
-                      <div className="numbers pull-left">Transfer to Cards
+                      <div className="numbers pull-left">Loads vs Spend
                     </div>
                     </Col>
 
