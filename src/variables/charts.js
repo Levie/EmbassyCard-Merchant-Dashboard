@@ -903,7 +903,7 @@ const chartExample11 = {
       display: false,
     },
     tooltips: {
-      enabled: false,
+      enabled: true,
     },
     scales: {
       yAxes: [
@@ -1166,7 +1166,7 @@ const chartExample14 = {
 
 const chartExample15 = {
   data: {
-    labels: [1, 2, 3],
+    labels: [1, 2, 3, 4],
     datasets: [
       {
         label: "Emails",
@@ -1184,7 +1184,7 @@ const chartExample15 = {
       display: false,
     },
     tooltips: {
-      enabled: false,
+      enabled: true,
     },
     scales: {
       yAxes: [
@@ -1217,7 +1217,7 @@ const chartExample15 = {
 
 const chartExample16 = {
   data: {
-    labels: [1, 2, 3],
+    labels: [1, 2, ],
     datasets: [
       {
         label: "Emails",
@@ -1235,7 +1235,7 @@ const chartExample16 = {
       display: false,
     },
     tooltips: {
-      enabled: false,
+      enabled: true,
     },
     scales: {
       yAxes: [
