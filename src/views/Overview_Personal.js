@@ -268,8 +268,8 @@ class Overview_Personal extends React.Component {
                 <CardFooter>
                   <hr />
                   <div className="stats">
-                    <i className="nc-icon nc-basket" />
-                    Cash In at Merchant.
+                    <i className="nc-icon nc-bank" />
+                    Bank-2-Card & Cash In at Merchant.
                   </div>
                 </CardFooter>
               </Card>
@@ -330,25 +330,29 @@ class Overview_Personal extends React.Component {
                 />
               </CardBody>
               <CardFooter>
+              <div className="legend">
+                <i className="fa fa-circle text-primary" />
+                Online Payments
+              </div>
+              <div className="legend">
+                <i className="fa fa-circle text-danger" />
+                Offline Payments
+              </div>
                 <div className="legend">
                   <i className="fa fa-circle text-warning" />
                   Cash Back (Cash Out)
                 </div>
                 <div className="legend">
                   <i className="fa fa-circle text-info" />
-                  Cash Loaded (Bank-2-Card + Top Up + Cash In)
+                  Card Loaded
                 </div>
                 <div className="legend">
                   <i className="fa fa-circle text-muted" />
-                  Deposit (Card-2-Bank)
-                </div>
-                <div className="legend">
-                  <i className="fa fa-circle text-danger" />
-                  Payments (Online/Offline R2P)
+                  Cash Deposit
                 </div>
                 <div className="legend">
                   <i className="fa fa-circle text-success" />
-                  Person-2-Person Transfer (Cash Sent)
+                  Transfers
                 </div>
 
               </CardFooter>
