@@ -1,6 +1,6 @@
 import React from "react";
 // react plugin used to create charts
-import { Line, Doughnut } from "react-chartjs-2";
+import { Bar, Line, Doughnut } from "react-chartjs-2";
 // react plugin for creating vector maps
 //import { VectorMap } from "react-jvectormap";
 
@@ -43,6 +43,8 @@ import {
   chartExample11,
   chartExample15,
   chartExample16,
+
+  chartExample17,
 } from "variables/charts.js";
 
 // var mapData = {
@@ -414,12 +416,13 @@ class Overview_Personal extends React.Component {
                 </CardFooter>
               </Card>
             </Col>
-            <Col lg="6" md="6" sm="6">
+
+          <Col lg="6" md="6" sm="6">
               <Card>
                 <CardHeader>
                 <Row>
                   <Col sm="7">
-                    <div className="numbers pull-left">Transfers to Cards
+                    <div className="numbers pull-left">Transfer to Cards
                   </div>
                   </Col>
 
@@ -436,11 +439,11 @@ class Overview_Personal extends React.Component {
                 <CardFooter>
                 <div className="legend">
                   <i className="fa fa-circle text-danger" />
-                  Card to Card
+                  Card-2-Card
                 </div>
                 <div className="legend">
                   <i className="fa fa-circle text-info" />
-                  Card to Card Remote
+                  Card-2-Card Remote
                 </div>
 
 
@@ -448,6 +451,41 @@ class Overview_Personal extends React.Component {
                 </CardFooter>
               </Card>
             </Col>
+
+            <Col lg="6" md="6" sm="6">
+                <Card>
+                  <CardHeader>
+                  <Row>
+                    <Col sm="7">
+                      <div className="numbers pull-left">Transfer to Cards
+                    </div>
+                    </Col>
+
+                  </Row>
+                  </CardHeader>
+                  <CardBody>
+                    <Bar
+                      data={chartExample17.data}
+                      options={chartExample17.options}
+                      width={456}
+                      height={300}
+                    />
+                  </CardBody>
+                  <CardFooter>
+                  <div className="legend">
+                    <i className="fa fa-circle text-warning" />
+                    Card Loaded
+                  </div>
+                  <div className="legend">
+                    <i className="fa fa-circle text-info" />
+                    Card Deposits
+                  </div>
+
+
+
+                  </CardFooter>
+                </Card>
+              </Col>
 
 
           </Row>
@@ -463,12 +501,10 @@ class Overview_Personal extends React.Component {
               </CardHeader>
               <CardBody>
 
-                <Line
-                  data={chartExample10.data}
-                  options={chartExample10.options}
-                  height={380}
-                  width={828}
-                />
+              <Line
+                data={chartExample10.data}
+                options={chartExample10.options}
+              />
               </CardBody>
               <CardFooter>
               <div className="legend">

@@ -894,7 +894,7 @@ const chartExample11 = {
         backgroundColor: ["#ef8156", "#4acccd", "#feb201" ],
         borderWidth: 0,
         barPercentage: 1.6,
-        data: [330, 280, 780],
+        data: [33, 28, 78],
       },
     ],
   },
@@ -1266,6 +1266,101 @@ const chartExample16 = {
   },
 };
 
+const chartExample17 = {
+  data: {
+    labels: [
+
+      1,
+      2,
+
+    ],
+    datasets: [
+      {
+        label: "Data",
+        borderColor: "#fcc468",
+        fill: true,
+        backgroundColor: "#fcc468",
+        hoverBorderColor: "#fcc468",
+        borderWidth: 8,
+        barPercentage: 0.4,
+        data: [
+          100,
+
+        ],
+      },
+      {
+        label: "Data",
+        borderColor: "#4cbdd7",
+        fill: true,
+        backgroundColor: "#4cbdd7",
+        hoverBorderColor: "#4cbdd7",
+        borderWidth: 8,
+        barPercentage: 0.4,
+        data: [
+          80,
+
+        ],
+      },
+    ],
+  },
+  options: {
+    tooltips: {
+      tooltipFillColor: "rgba(0,0,0,0.5)",
+      tooltipFontFamily: "'Helvetica Neue', 'Helvetica', 'Arial', sans-serif",
+      tooltipFontSize: 14,
+      tooltipFontStyle: "normal",
+      tooltipFontColor: "#fff",
+      tooltipTitleFontFamily:
+        "'Helvetica Neue', 'Helvetica', 'Arial', sans-serif",
+      tooltipTitleFontSize: 14,
+      tooltipTitleFontStyle: "bold",
+      tooltipTitleFontColor: "#fff",
+      tooltipYPadding: 6,
+      tooltipXPadding: 6,
+      tooltipCaretSize: 8,
+      tooltipCornerRadius: 6,
+      tooltipXOffset: 10,
+    },
+    legend: {
+      display: false,
+    },
+    scales: {
+      yAxes: [
+        {
+          ticks: {
+            fontColor: "#9f9f9f",
+            fontStyle: "bold",
+            beginAtZero: true,
+            maxTicksLimit: 5,
+            padding: 20,
+          },
+          gridLines: {
+            zeroLineColor: "transparent",
+            display: true,
+            drawBorder: false,
+            color: "#9f9f9f",
+          },
+        },
+      ],
+      xAxes: [
+        {
+          gridLines: {
+            zeroLineColor: "white",
+            display: false,
+
+            drawBorder: false,
+            color: "transparent",
+          },
+          ticks: {
+            padding: 20,
+            fontColor: "#9f9f9f",
+            fontStyle: "bold",
+          },
+        },
+      ],
+    },
+  },
+};
 
 
 module.exports = {
@@ -1301,4 +1396,6 @@ module.exports = {
   chartExample15,
   // used for Charts view
   chartExample16,
+  // used for Charts view
+  chartExample17,
 };
