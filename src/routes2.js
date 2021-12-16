@@ -23,7 +23,7 @@ const routes2 = [
     collapse: true,
     name: "Merchant",
     //mini:"..",
-    icon: "nc-icon nc-laptop",
+    icon: "nc-icon nc-tv-2",
     state: "MerchantCollapse",
     views: [
 
