@@ -510,7 +510,7 @@ class Dashboard_LastMonth_Personal extends React.Component {
             <Card className="card-chart">
               <CardHeader>
                 <CardTitle tag="h4">Transaction Activity</CardTitle>
-                //<p className="card-category">See how much you use your EmbassyCard across the calender year</p>
+                
               </CardHeader>
               <CardBody>
                 <Line
@@ -533,7 +533,7 @@ class Dashboard_LastMonth_Personal extends React.Component {
               <Card>
                 <CardHeader>
                   <CardTitle tag="h4">Load vs Withdrawl</CardTitle>
-                  //<p className="card-category">See your in's and out's per month</p>
+
                 </CardHeader>
                 <CardBody>
                   <Bar
