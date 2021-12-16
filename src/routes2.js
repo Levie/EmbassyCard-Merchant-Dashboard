@@ -277,7 +277,7 @@ const routes2 = [
 {
   collapse: true,
   name: "Customer",
-  icon: "nc-icon nc-mobile",
+  icon: "nc-icon nc-tablet-2",
   state: "CustomerCollapse",
   views: [
     {
